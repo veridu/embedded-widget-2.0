@@ -1,0 +1,124 @@
+.veridu-sso  {
+
+    input.veridu-input {
+        width: 100%;
+        height: 48px;
+        border: 0;
+        outline: 0;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: inset 0 -1px 1px 0 rgba(255, 255, 255, 0.2), inset 0 -1px 0 0 rgba(69, 90, 100, 0.5);
+        font-size: 14px;
+        color: #9b9b9b;
+        text-align: center;
+        padding-right: 48px !important;
+    }
+
+    div.veridu-input-group {
+        position: relative;
+
+        .veridu-input {
+
+        }
+        .veridu-button {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+    .material-input-container {
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.5;
+        margin-bottom: em(12, 12);
+
+        select {
+            width: 100%;
+            background-color: transparent;
+            border: 0;
+        }
+        textarea {
+            font-size: .85em;
+            outline: 0;
+            resize: none;
+        }
+
+        input, textarea {
+            width: 100%;
+            background-color: transparent;
+            color: $gray-dark;
+            border: 0;
+            padding: 4px;
+            padding-left: 1px;
+            border-bottom: 1px solid #eee;
+            position: relative;
+
+            &.ng-invalid.ng-touched {
+                border-color: $brand-danger;
+            }
+        }
+
+        &.focused {
+            input, textarea {
+                // border-color: transparent;
+
+                &.ng-invalid.ng-touched {
+                    border-color: $brand-danger;
+                }
+            }
+
+            &:after {
+                width: 100%;
+            }
+        }
+
+        &:after {
+            -webkit-transition: width 0.15s ease-in;
+            -moz-transition: width 0.15s ease-in;
+            -ms-transition: width 0.15s ease-in;
+            -o-transition: width 0.15s ease-in;
+            transition: width 0.15s ease-in;
+
+            -webkit-transform: translateZ(0);
+            -moz-transform: translateZ(0);
+            -ms-transform: translateZ(0);
+            -o-transform: translateZ(0);
+            transform: translateZ(0);
+
+            content: ' ';
+            position: relative;
+            top: -1px;
+            width: 0;
+            height: 1px;
+            margin: 0 auto;
+            display: block;
+            background-color: $brand-primary;
+        }
+
+        &.material-input-container--textarea {
+            @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+                &:after {
+                    top: -6px;
+                }
+            }
+        }
+
+        &.material-input-container--error {
+            input, textarea {
+                border-color: $brand-danger;
+            }
+
+            &:after {
+                background-color: $brand-danger;
+            }
+        }
+    }
+    .md-error {
+        position: relative;
+        top: -16px;
+        font-size: 0.8em;
+        color: $brand-danger;
+    }
+
+
+}

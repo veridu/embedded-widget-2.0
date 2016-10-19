@@ -1,0 +1,28 @@
+.veridu-sso .v-progress{
+    background-color: #d6d4d4;
+    position: relative;
+    height: 2px;
+    width: calc(100% - 30px);
+
+    > div {
+        vertical-align: middle;
+    }
+
+    .v-progress-bar {
+        background-color: $brand-primary;
+        height: inherit;
+        transition: width 0.35s linear;
+    }
+    .v-progress-value {
+        position: absolute;
+        top: -0.55em;
+        right: - $veridu-sso-side-padding;
+        width: 40px;
+        text-align: right;
+
+        font-weight: normal;
+        font-size: 11px;
+        font-style: italic;
+        color: #9b9b9b;
+    }
+}

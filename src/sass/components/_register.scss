@@ -1,0 +1,15 @@
+$register-width: 120;
+$register-bradius: 10;
+$register-padding: 10;
+
+.veridu-sso_widget__register {
+    background-color: $brand-primary;
+    display: inline-block;
+    width: em($register-width);
+    text-align: center;
+    border-top-left-radius: $register-bradius+px;
+    border-bottom-left-radius: $register-bradius+px;
+    padding: $register-padding +px;
+    color: white;
+    cursor: pointer;
+}

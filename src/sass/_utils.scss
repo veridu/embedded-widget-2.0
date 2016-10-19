@@ -1,0 +1,65 @@
+.veridu-animated {
+    -webkit-animation-duration: .25s;
+    animation-duration: .25s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.VeriduFadeIn {
+    @extend .veridu-animated;
+    animation-name: VeriduFadeIn;
+    -webkit-animation-name: VeriduFadeIn;
+}
+.VeriduFadeOut {
+    @extend .veridu-animated;
+    animation-name: VeriduFadeOut;
+    -webkit-animation-name: VeriduFadeOut;
+}
+
+@keyframes VeridufadeIn {
+  from {
+      @include opacity(0);
+      -webkit-transform: scale(.4) rotate(360deg);
+      transform: scale(.4) rotate(360deg);
+  }
+
+  100% {
+      @include opacity(1);
+      -webkit-transform: scale(1) rotate(360deg);
+      transform: scale(1) rotate(360deg);
+  }
+}
+@keyframes VeridufadeOut {
+  from {
+        @include opacity(1);
+        -webkit-transform: scale(1) rotate(360deg);
+        transform: scale(1) rotate(360deg);
+  }
+  100% {
+        @include opacity(0);
+        -webkit-transform: scale(.4) rotate(360deg);
+        transform: scale(.4) rotate(360deg);
+  }
+}
+
+@-webkit-keyframes VeriduButtonOverlayLoading {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        background-color: $brand-primary;
+        opacity: 0.3;
+    }
+}
+
+@keyframes VeriduButtonOverlayLoading {
+    0%, 100% {
+        opacity: 0;
+    }
+
+    50% {
+        background-color: $brand-primary;
+        opacity: 0.3;
+    }
+}

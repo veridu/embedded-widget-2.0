@@ -1,0 +1,2123 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ge",
+				"generateIdentityToken〔function〕"
+			],
+			[
+				"company",
+				"companyId"
+			],
+			[
+				"creden",
+				"$credential〔variable〕"
+			],
+			[
+				"com",
+				"companyId〔variable〕"
+			],
+			[
+				"settin",
+				"$setting〔variable〕"
+			],
+			[
+				"fin",
+				"findOneByCompanyAndId〔function〕"
+			],
+			[
+				"empty",
+				"empty〔function〕"
+			],
+			[
+				"assertId",
+				"assertId〔function〕"
+			],
+			[
+				"setti",
+				"settingId"
+			],
+			[
+				"compan",
+				"company"
+			],
+			[
+				"get",
+				"getAllPublicByCompanyId〔function〕"
+			],
+			[
+				"CO",
+				"COMPANY〔constant〕"
+			],
+			[
+				"Assert",
+				"AssertEntity〔trait〕"
+			],
+			[
+				"member",
+				"$member〔variable〕"
+			],
+			[
+				"targ",
+				"$targetCompany〔variable〕"
+			],
+			[
+				"iden",
+				"identites"
+			],
+			[
+				"compa",
+				"$company〔variable〕"
+			],
+			[
+				"array_has",
+				"array_has〔function〕"
+			],
+			[
+				"ide",
+				"$identityCompanies〔variable〕"
+			],
+			[
+				"comp",
+				"company"
+			],
+			[
+				"comma",
+				"$command〔variable〕"
+			],
+			[
+				"identi",
+				"$identity〔variable〕"
+			],
+			[
+				"identit",
+				"$identity〔variable〕"
+			],
+			[
+				"cast",
+				"castHydrateEntity〔function〕"
+			],
+			[
+				"companies",
+				"$companies〔variable〕"
+			],
+			[
+				"Ide",
+				"IdentityInterface〔interface〕"
+			],
+			[
+				"identity",
+				"identityPubKey"
+			],
+			[
+				"i",
+				"IDENTITY〔constant〕"
+			],
+			[
+				"Aut",
+				"AuthNew〔class〕"
+			],
+			[
+				"Requires",
+				"RequiresCompanyToken〔trait〕"
+			],
+			[
+				"statu",
+				"status1"
+			],
+			[
+				"proc",
+				"proccessDefaultRequest〔function〕"
+			],
+			[
+				"serial",
+				"$serialized〔variable〕"
+			],
+			[
+				"json",
+				"json_decode〔function〕"
+			],
+			[
+				"Requ",
+				"RequiresUserToken"
+			],
+			[
+				"setPara",
+				"setParameter"
+			],
+			[
+				"Requi",
+				"RequiresUserToken〔trait〕"
+			],
+			[
+				"Valida",
+				"ValidateFlag〔trait〕"
+			],
+			[
+				"property",
+				"property_exists〔function〕"
+			],
+			[
+				"souc",
+				"$source〔variable〕"
+			],
+			[
+				"key",
+				"key_exists〔function〕"
+			],
+			[
+				"objec",
+				"objectHasAttribute〔function〕"
+			],
+			[
+				"permiss",
+				"$permissions〔variable〕"
+			],
+			[
+				"updated",
+				"updated_at"
+			],
+			[
+				"ACC",
+				"ACCESS_WRITE"
+			],
+			[
+				"AC",
+				"ACCESS_READ"
+			],
+			[
+				"P",
+				"PARENT_ACTION〔constant〕"
+			],
+			[
+				"Compa",
+				"CompanyPermission〔namespace〕"
+			],
+			[
+				"res",
+				"$response〔variable〕"
+			],
+			[
+				"S",
+				"SELF_OR_PARENT_ACTION〔constant〕"
+			],
+			[
+				"creat",
+				"created_at〔variable〕"
+			],
+			[
+				"Servi",
+				"ServiceHandlerEntity〔namespace〕"
+			],
+			[
+				"ls",
+				"listens"
+			],
+			[
+				"assert",
+				"assertEquals〔function〕"
+			],
+			[
+				"Dele",
+				"DeleteOne〔namespace〕"
+			],
+			[
+				"qu",
+				"$dbQuery〔variable〕"
+			],
+			[
+				"delet",
+				"deleteBy〔function〕"
+			],
+			[
+				"parent",
+				"parentId"
+			],
+			[
+				"asauth",
+				"assertAuthUsername〔function〕"
+			],
+			[
+				"or",
+				"orWhere〔function〕"
+			],
+			[
+				"param",
+				"parameters"
+			],
+			[
+				"Ab",
+				"AbstractUnit〔namespace〕"
+			],
+			[
+				"para",
+				"$parameter〔variable〕"
+			],
+			[
+				"parame",
+				"parameter"
+			],
+			[
+				"sett",
+				"$settingId〔variable〕"
+			],
+			[
+				"Rol",
+				"RoleAccess〔class〕"
+			],
+			[
+				"rela",
+				"$relationships〔variable〕"
+			],
+			[
+				"ass",
+				"assertListens"
+			],
+			[
+				"allo",
+				"allowedListeners"
+			],
+			[
+				"casthyd",
+				"castHydrateEntity〔function〕"
+			],
+			[
+				"servicehandi",
+				"$serviceHandlerId〔variable〕"
+			],
+			[
+				"quer",
+				"queryAttributes〔variable〕"
+			],
+			[
+				"join",
+				"join〔function〕"
+			],
+			[
+				"daehandlerid",
+				"$daemonHandlerId〔variable〕"
+			],
+			[
+				"actin",
+				"actingCompany"
+			],
+			[
+				"acti",
+				"actingCompany"
+			],
+			[
+				"coid",
+				"companyId"
+			],
+			[
+				"C",
+				"joinCompanyPivot〔function〕"
+			],
+			[
+				"company_dae",
+				"company_daemon_handlers"
+			],
+			[
+				"act",
+				"$actingCompany〔variable〕"
+			],
+			[
+				"q",
+				"querySelect〔variable〕"
+			],
+			[
+				"daemonsh",
+				"daemonHandlerSlug"
+			],
+			[
+				"where",
+				"whereIn〔function〕"
+			],
+			[
+				"match",
+				"matches〔function〕"
+			],
+			[
+				"were",
+				"where〔function〕"
+			],
+			[
+				"query",
+				"$queryParams〔variable〕"
+			],
+			[
+				"ab",
+				"abstractMock"
+			],
+			[
+				"enti",
+				"entities"
+			],
+			[
+				"requ",
+				"$request〔variable〕"
+			],
+			[
+				"pagi",
+				"pagination"
+			],
+			[
+				"ob",
+				"obfuscates"
+			],
+			[
+				"paramete",
+				"parameters"
+			],
+			[
+				"req",
+				"$request〔variable〕"
+			],
+			[
+				"pregma",
+				"preg_match〔function〕"
+			],
+			[
+				"Opti",
+				"OpitmusDecode〔class〕"
+			],
+			[
+				"getA",
+				"getAttributes〔function〕"
+			],
+			[
+				"pag",
+				"pagination"
+			],
+			[
+				"__f",
+				"__set_state〔function〕"
+			],
+			[
+				"__to",
+				"__clone〔function〕"
+			],
+			[
+				"__call",
+				"__callStatic〔function〕"
+			],
+			[
+				"__C",
+				"__construct〔function〕"
+			],
+			[
+				"__",
+				"__unset"
+			],
+			[
+				"per",
+				"$perPage〔variable〕"
+			],
+			[
+				"comai",
+				"companyId"
+			],
+			[
+				"casthy",
+				"castHydrateEntity〔function〕"
+			],
+			[
+				"Coma",
+				"CompanyServiceHandler〔namespace〕"
+			],
+			[
+				"service",
+				"service_handlers"
+			],
+			[
+				"dele",
+				"deleteBy〔function〕"
+			],
+			[
+				"en",
+				"$entityData〔variable〕"
+			],
+			[
+				"slug",
+				"slug〔variable〕"
+			],
+			[
+				"seri",
+				"serialized"
+			],
+			[
+				"ser",
+				"serialized"
+			],
+			[
+				"Pri",
+				"PRIVATE_ACTION"
+			],
+			[
+				"serviceSlug",
+				"$serviceSlug〔variable〕"
+			],
+			[
+				"relation",
+				"relationships"
+			],
+			[
+				"rel",
+				"relations"
+			],
+			[
+				"eni",
+				"entityClass"
+			],
+			[
+				"findByUs",
+				"findByUserNameAndCompany"
+			],
+			[
+				"cm",
+				"companyId"
+			],
+			[
+				"find",
+				"findByUserNameAndCompany"
+			],
+			[
+				"cren",
+				"credentials"
+			],
+			[
+				"validate",
+				"validateServerRequest"
+			],
+			[
+				"getip",
+				"getmypid〔function〕"
+			],
+			[
+				"COMPANY_",
+				"COMPANY_OWNER〔constant〕"
+			],
+			[
+				"exc",
+				"ACCESS_EXECUTE〔constant〕"
+			],
+			[
+				"dec",
+				"decbin〔function〕"
+			],
+			[
+				"reso",
+				"$resource〔variable〕"
+			],
+			[
+				"roleac",
+				"roleAccessRepository"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/components/widget-footer.vue",
+			"settings":
+			{
+				"buffer_size": 5177,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 371.0,
+		"last_filter": "dele",
+		"selected_items":
+		[
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"finduse",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"closeal",
+				"File: Close All"
+			],
+			[
+				"saveall",
+				"File: Save All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"saveal",
+				"File: Save All"
+			],
+			[
+				"tot",
+				"View: Toggle Tabs"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"dbrv",
+				"Side Bar: Reveal File"
+			],
+			[
+				"fulna",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"dash",
+				"DoxyDoxygen: Update Comment With User-Selected Style (interactive)..."
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"activate",
+				"Material Theme: Activate theme"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"savel",
+				"File: Save All"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			],
+			[
+				"sbrv",
+				"Side Bar: Reveal File"
+			],
+			[
+				"findu",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"findus",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"fuln",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"fulnam",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"find",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"u",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"use",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"name",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"closel",
+				"File: Close All"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"instal",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"tom",
+				"View: Toggle Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"omm",
+				"DoxyDoxygen: Comment All"
+			],
+			[
+				"finsue",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"settings",
+				"Preferences: Settings - Default"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"edel",
+				"File: Delete"
+			],
+			[
+				"ins",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"rev",
+				"File: Reveal"
+			],
+			[
+				"usser",
+				"DoxyDoxygen: Update Comment With User-Selected Style (interactive)..."
+			],
+			[
+				"ser",
+				"Set Syntax: R"
+			],
+			[
+				"qname",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"qn",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"finuse",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ass",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"qnae",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"qu",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"phpcomp",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"filpa",
+				"File: Copy Path as URI"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"closal",
+				"File: Close All"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"sdv",
+				"SFTP: Delete Server…"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"closa",
+				"File: Close All"
+			],
+			[
+				"sava",
+				"File: Save All"
+			],
+			[
+				"refres",
+				"Project: Refresh Folders"
+			],
+			[
+				"folder",
+				"File: New Folder Relative to Project Root"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"clsoeall",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"savall",
+				"File: Save All"
+			],
+			[
+				"tos",
+				"View: Toggle Status Bar"
+			],
+			[
+				"st",
+				"View: Toggle Status Bar"
+			],
+			[
+				"tost",
+				"View: Toggle Status Bar"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"dbini",
+				"Preferences: DoxyDoxygen Key Bindings (Linux) - Default"
+			],
+			[
+				"tota",
+				"View: Toggle Tabs"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"tst",
+				"DoxyDoxygen: Translate Selection To..."
+			],
+			[
+				"refresh",
+				"Project: Refresh Folders"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"tog a",
+				"View: Toggle Tabs"
+			],
+			[
+				"tot tab",
+				"View: Toggle Status Bar"
+			],
+			[
+				"togsta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"togta",
+				"View: Toggle Tabs"
+			],
+			[
+				"togtab",
+				"View: Toggle Tabs"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"togst",
+				"View: Toggle Status Bar"
+			],
+			[
+				"totab",
+				"View: Toggle Tabs"
+			],
+			[
+				"togt",
+				"View: Toggle Tabs"
+			],
+			[
+				"sbrev",
+				"Side Bar: Reveal File"
+			],
+			[
+				"inst",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"us",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"reide",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"revie",
+				"Side Bar: Reveal File"
+			],
+			[
+				"sdrev",
+				"Side Bar: Reveal File"
+			],
+			[
+				"sidrevi",
+				"Side Bar: Reveal File"
+			],
+			[
+				"reav",
+				"File: Reveal"
+			],
+			[
+				"find use",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"tostat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"colr",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"togstau",
+				"View: Toggle Status Bar"
+			],
+			[
+				"com",
+				"Toggle Comment"
+			],
+			[
+				"totga",
+				"View: Toggle Tabs"
+			],
+			[
+				"fin",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"phpcompa",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"import",
+				"PHPCompanion:Import Namespace"
+			],
+			[
+				"tog tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"companion",
+				"PHPCompanion:Insert Constructor Property"
+			],
+			[
+				"php",
+				"PHPCompanion:Import Namespace"
+			],
+			[
+				"phpcom",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"instl",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colorsub",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"colorsubl",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 679.0
+	},
+	"console":
+	{
+		"height": 260.0,
+		"history":
+		[
+			"pwd",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/sass"
+	],
+	"file_history":
+	[
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget-footer.vue",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/v-svg.vue",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget.vue",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/config.js",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/popup-widget/src/popup.js",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/popup-widget/src/config.js",
+		"/home/rafael/Projects/veridu/idos/api/resources/features.csv",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Warnings.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Traits/AssertSlug.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Entity/Warning.php",
+		"/home/rafael/Projects/veridu/idos/api/schema/warning/warningEntity.json",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20151201160713_user_init.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S26UserIdentitiesSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/DBUser.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S25WarningsSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S12CategoriesSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Warnings.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Warning.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Extension/SlugMutator.php",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20151201154529_categories_init.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/AbstractSQLDBRepository.php",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20150916162810_categories_init.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S00CategoriesSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S21UsersSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20151201160714_warnings_init.php",
+		"/home/rafael/Projects/veridu/idos/api/resources/postman/idOS.postman_collection.json",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20151201150000_identity_init.php",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20160916162810_categories_init.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Sources.php",
+		"/home/rafael/Projects/veridu/idos/api/docs/tokens.md",
+		"/home/rafael/Projects/veridu/idos/api/vendor/pdepend/pdepend/src/main/php/PDepend/Source/Parser/TokenStack.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Middleware/Auth.php",
+		"/home/rafael/Projects/veridu/idos/api/schema/setting/deleteAll.json",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Setting/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Unit/Command/Setting/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Hook/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Hooks.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Companies.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Hook/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Hook.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/DBHook.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Hook/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Hook/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Hook/CreateNew.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Hook/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Hook/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Member/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Member/DeleteAll.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Member/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Member/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Member/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Member/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Setting/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Setting/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Setting/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Setting/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Setting/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Profile/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Review/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Review/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Review/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Review/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Service/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Service/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Service/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Service/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Service/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Service/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/ServiceHandler/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/ServiceHandler/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/ServiceHandler/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/ServiceHandler/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/ServiceHandler/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/ServiceHandler/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Tag/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Tag/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Tag/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Tag/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Tag/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Permission/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Permission/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Permission/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/schema/permission/deleteOne.json",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Traits/RequiresIdentityToken.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Company/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Company/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Company/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Company/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Permission/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Warning/CreateNewTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Warning/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Warning/DeleteOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Warning/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Warning/ListAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Permission/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/schema/credential/credentialEntity.json",
+		"/home/rafael/Projects/veridu/idos/api/schema/credential/updateOne.json",
+		"/home/rafael/Projects/veridu/idos/api/schema/credential/deleteOne.json",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Company.php",
+		"/home/rafael/Projects/veridu/idos/api/schema/company/deleteOne.json",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Company/DeleteAllTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Entity/Service.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Traits/AssertString.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Company.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Traits/AssertName.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S25IdentitiesSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/AbstractFunctional.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Helper/Token.php",
+		"/home/rafael/Projects/veridu/idos/api/phpunit.xml",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Sso.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Credential.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Setting.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Credential/DeleteOne.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Credentials.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Credentials.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/DeleteOne.php",
+		"/home/rafael/Projects/veridu/idos/api/config/dependencies.php",
+		"/home/rafael/Projects/veridu/idos/api/composer.json",
+		"/home/rafael/Projects/veridu/idos/api/log/api-20160914.log",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Sso.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNewFacebook.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/DBSetting.php"
+	],
+	"find":
+	{
+		"height": 78.0
+	},
+	"find_in_files":
+	{
+		"height": 180.0,
+		"where_history":
+		[
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/Permission",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/Company",
+			"/home/rafael/Projects/veridu/idos/api",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api/db/seeds",
+			"/home/rafael/Projects/veridu/idos/api/db/",
+			"/home/rafael/Projects/veridu/idos/api",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/app/Route",
+			"",
+			"(CompanyPermission",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/vendor/robmorgan/phinx/src/Phinx",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"",
+			"strict_types=1",
+			"",
+			"strict_types=1",
+			"",
+			"/home/rafael/Projects/veridu/dashboard/application",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/demos-src/sharing-economy/src",
+			"/home/rafael/Projects/veridu/demos-src/sharing-economy/src/sass",
+			"/home/rafael/Projects/veridu/demos-src/sharing-economy/src",
+			"/home/rafael/Projects/veridu/demos-src/new-payments/src",
+			"/home/rafael/Projects/veridu/demos-src/new-payments/src/js",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/vue-popup/src",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api/test/Unit/Command/Permission",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/i18n",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api",
+			"/home/rafael/Projects/veridu/demos/onboarding",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app/Repository/",
+			"/home/rafael/Projects/veridu/idos/api/app/Command/Credential",
+			"/home/rafael/Projects/veridu/idos/api/app/Command/Company",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"2.2em",
+			"img",
+			"import",
+			"width",
+			"trustLevel",
+			"normalizePrefs",
+			"trustLevel",
+			"low",
+			"reference",
+			"service",
+			"user",
+			"reference",
+			"name",
+			"reference",
+			"name",
+			"isset",
+			"condition",
+			"reference",
+			"re",
+			"referenc",
+			"attribute",
+			"warning",
+			"middle",
+			"assertName",
+			"name",
+			"assertName",
+			"name",
+			" 'name'",
+			"name",
+			"attribute",
+			"warnings",
+			"-name",
+			" name",
+			"First name",
+			"CASCADE",
+			"creator",
+			"last",
+			"first",
+			"firstname",
+			"Last",
+			"firstName",
+			"warnings",
+			"last",
+			"First",
+			"first",
+			"key",
+			"slug",
+			"key",
+			"firstname",
+			"name",
+			"creator",
+			"'unique' => true",
+			"key",
+			"name",
+			"id",
+			"warnings",
+			"services",
+			"review",
+			"slug",
+			"First",
+			"firstname",
+			"slug",
+			"name",
+			"firstname",
+			"company",
+			"type",
+			"roles",
+			"category",
+			"companyToken",
+			"reference",
+			"id",
+			"users",
+			"resource_id",
+			"warnin",
+			"users",
+			"Auth::CREDENTIAL",
+			"USER",
+			"Auth::USER",
+			"| Auth::CREDENTIAL",
+			"Auth::USER | Auth::CREDENTIAL",
+			"| Auth::IDENTITY",
+			"description",
+			"identities",
+			"identity",
+			"text",
+			"name",
+			"country",
+			"Support",
+			"cityList",
+			"category",
+			"cityList",
+			"city_list",
+			"not",
+			"toArra",
+			"credential",
+			"pubKey",
+			"comp",
+			"credentialPubKey",
+			"public",
+			"getAllByCredentialPubKey",
+			"/management/",
+			"$this->companyTokenHeader()",
+			"RequiresCompanyToken",
+			"companyToken",
+			"Company",
+			"RequiresCompanyToken",
+			"$this->companyTokenHeader()",
+			"management",
+			"$this->companyTokenHeader()",
+			"assertLongLatinName",
+			"Aasser",
+			"AssertId",
+			"latinChars",
+			"callback",
+			"name",
+			"latin",
+			"valid",
+			"assertMediumName",
+			"getParsedBody",
+			"$this->companyTokenHeader()",
+			"CredentialToken",
+			"Credent",
+			"handler",
+			"Overrides",
+			"identityPrivKey",
+			"handlerPubKey",
+			"company",
+			"tdarue"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/companies/veridu-ltd/",
+			"$this->identityTokenHeader()",
+			"RequiresIdentityToken",
+			"$this->identityTokenHeader()",
+			"Auth::IDENTITY",
+			"            ->add($permission(\n                EndpointPermission::SELF_ACTION | EndpointPermission::PARENT_ACTION, \n                Role::COMPANY_OWNER_BIT | Role::COMPANY_ADMIN_BIT\n            ))\n",
+			"",
+			"AbstractEntity {\n    /**",
+			"",
+			"PRIVATE_ACTION",
+			"PUBLIC_ACTION",
+			"PROTECTED_ACTION",
+			"getAll(array $queryParams = [])",
+			"public function getAll(array $queryParams) : Collection {",
+			"public function getAll(array $queryParams) : Collection;",
+			"get('companyPermissionMiddleware')",
+			"use App\\Middleware\\CompanyPermission;",
+			"(CompanyPermission",
+			"",
+			"declare(strict_types=1);",
+			"strict_types=1",
+			"eventEmitter",
+			"20px",
+			">\n",
+			"routeName",
+			"route_name",
+			"permissions",
+			"permission",
+			"Permissions",
+			"Permission",
+			"\\Psr\\Http\\Message\\ServerRequestInterface",
+			"\\Psr\\Http\\Message\\ResponseInterface",
+			"namespace App\\Command\\Credential;",
+			"namespace App\\Command\\Company;",
+			"Settings"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/components/widget-footer.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1234
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1872.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 72.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 204.0
+	},
+	"pinned_build_system": "",
+	"project": "veridu-embedded-widget.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"widfo",
+				"src/components/widget-footer.vue"
+			],
+			[
+				"footer",
+				"src/components/widget-footer.vue"
+			],
+			[
+				"config",
+				"src/config.js"
+			],
+			[
+				"widget",
+				"src/components/widget.vue"
+			],
+			[
+				"co",
+				"src/config.js"
+			],
+			[
+				"pop",
+				"src/popup.js"
+			],
+			[
+				"feature",
+				"resources/features.csv"
+			],
+			[
+				"cateseed",
+				"db/seeds/S12CategoriesSeed.php"
+			],
+			[
+				"routewarning",
+				"app/Route/Warnings.php"
+			],
+			[
+				"warninseed",
+				"db/seeds/S25WarningsSeed.php"
+			],
+			[
+				"commandwarningcreanew",
+				"app/Command/Warning/CreateNew.php"
+			],
+			[
+				"entitywarning",
+				"app/Entity/Warning.php"
+			],
+			[
+				"warnient",
+				"schema/warning/warningEntity.json"
+			],
+			[
+				"userinit",
+				"db/migrations/20151201160713_user_init.php"
+			],
+			[
+				"dbuser",
+				"app/Repository/DBUser.php"
+			],
+			[
+				"categoseed",
+				"db/seeds/S12CategoriesSeed.php"
+			],
+			[
+				"warningsse",
+				"db/seeds/S25WarningsSeed.php"
+			],
+			[
+				"handlerwarning",
+				"app/Handler/Warning.php"
+			],
+			[
+				"contorwarnings",
+				"app/Controller/Warnings.php"
+			],
+			[
+				"warningenti",
+				"schema/warning/warningEntity.json"
+			],
+			[
+				"controwarning",
+				"app/Controller/Warnings.php"
+			],
+			[
+				"warnseed",
+				"db/seeds/S25WarningsSeed.php"
+			],
+			[
+				"categorini",
+				"db/migrations/20150916162810_categories_init.php"
+			],
+			[
+				"absql",
+				"app/Repository/AbstractSQLDBRepository.php"
+			],
+			[
+				"warniseed",
+				"db/seeds/S25WarningsSeed.php"
+			],
+			[
+				"warningseed",
+				"db/seeds/S25WarningsSeed.php"
+			],
+			[
+				"userseed",
+				"db/seeds/S21UsersSeed.php"
+			],
+			[
+				"categoriesee",
+				"db/seeds/S00CategoriesSeed.php"
+			],
+			[
+				"cateinit",
+				"db/migrations/20160916162810_categories_init.php"
+			],
+			[
+				"dbwarning",
+				"db/migrations/20151201160714_warnings_init.php"
+			],
+			[
+				"dbuserinit",
+				"db/migrations/20151201160713_user_init.php"
+			],
+			[
+				"idospost",
+				"resources/postman/idOS.postman_collection.json"
+			],
+			[
+				"00seed",
+				"db/seeds/S00RolesSeed.php"
+			],
+			[
+				"token",
+				"docs/tokens.md"
+			],
+			[
+				"tokens",
+				"vendor/pdepend/pdepend/src/main/php/PDepend/Source/Parser/TokenStack.php"
+			],
+			[
+				"midauth",
+				"app/Middleware/Auth.php"
+			],
+			[
+				"settindeletall",
+				"schema/setting/deleteAll.json"
+			],
+			[
+				"settindeletaltest",
+				"test/Functional/Setting/DeleteAllTest.php"
+			],
+			[
+				"hooks",
+				"app/Controller/Hooks.php"
+			],
+			[
+				"companies",
+				"app/Controller/Companies.php"
+			],
+			[
+				"hooklistaltest",
+				"test/Functional/Hook/ListAllTest.php"
+			],
+			[
+				"handlerhook",
+				"app/Handler/Hook.php"
+			],
+			[
+				"controlhooks",
+				"app/Controller/Hooks.php"
+			],
+			[
+				"hookgetonetest",
+				"test/Functional/Hook/GetOneTest.php"
+			],
+			[
+				"hookcreanewtest",
+				"test/Functional/Hook/CreateNewTest.php"
+			],
+			[
+				"hookcreanew",
+				"app/Command/Hook/CreateNew.php"
+			],
+			[
+				"permdelonetest",
+				"test/Functional/Permission/DeleteOneTest.php"
+			],
+			[
+				"permdeleone",
+				"schema/permission/deleteOne.json"
+			],
+			[
+				"credenjson",
+				"schema/credential/credentialEntity.json"
+			],
+			[
+				"companydeletone",
+				"schema/company/deleteOne.json"
+			],
+			[
+				"companydelontest",
+				"test/Functional/Company/DeleteOneTest.php"
+			],
+			[
+				"companydeltall",
+				"test/Functional/Company/DeleteAllTest.php"
+			],
+			[
+				"entityservic",
+				"app/Entity/Service.php"
+			],
+			[
+				"valcompany",
+				"app/Validator/Company.php"
+			],
+			[
+				"handlercompany",
+				"app/Handler/Company.php"
+			],
+			[
+				"seedident",
+				"db/seeds/S25IdentitiesSeed.php"
+			],
+			[
+				"companitst",
+				"test/Functional/Company/ListAllTest.php"
+			],
+			[
+				"phpunixml",
+				"phpunit.xml"
+			],
+			[
+				"handlersso",
+				"app/Handler/Sso.php"
+			],
+			[
+				"handlersetting",
+				"app/Handler/Setting.php"
+			],
+			[
+				"controcred",
+				"app/Controller/Credentials.php"
+			],
+			[
+				"handlercreden",
+				"app/Handler/Credential.php"
+			],
+			[
+				"routecrede",
+				"app/Route/Credentials.php"
+			],
+			[
+				"contro",
+				"app/Controller/Companies.php"
+			],
+			[
+				"commandcompanydeleone",
+				"app/Command/Company/DeleteOne.php"
+			],
+			[
+				"controcompan",
+				"app/Controller/Companies.php"
+			],
+			[
+				"apilog",
+				"log/api-20160914.log"
+			],
+			[
+				"comp",
+				"composer.json"
+			],
+			[
+				"depden",
+				"config/dependencies.php"
+			],
+			[
+				"compjso",
+				"composer.json"
+			],
+			[
+				"creanewfaceb",
+				"app/Command/Sso/CreateNewFacebook.php"
+			],
+			[
+				"ssocreanewface",
+				"app/Command/Sso/CreateNewFacebook.php"
+			],
+			[
+				"settininterf",
+				"app/Repository/SettingInterface.php"
+			],
+			[
+				"dbsetting",
+				"app/Repository/DBSetting.php"
+			],
+			[
+				"setphp",
+				"config/settings.php"
+			],
+			[
+				"settings",
+				"config/settings.php.dist"
+			],
+			[
+				"controsso",
+				"app/Controller/Sso.php"
+			],
+			[
+				"routesso",
+				"app/Route/Sso.php"
+			],
+			[
+				"phinx",
+				"phinx.yml"
+			],
+			[
+				"creanewfacebo",
+				"app/Command/Sso/CreateNewFacebook.php"
+			],
+			[
+				"controlsso",
+				"app/Controller/Sso.php"
+			],
+			[
+				"gatekeeper",
+				"app/Middleware/GateKeeper.php"
+			],
+			[
+				"13log",
+				"log/api-20160913.log"
+			],
+			[
+				"handlerprofile",
+				"app/Handler/Profile.php"
+			],
+			[
+				"profi",
+				"app/Controller/Profiles.php"
+			],
+			[
+				"chea",
+				"docs/cheatSheet.md"
+			],
+			[
+				"routereview",
+				"app/Route/Reviews.php"
+			],
+			[
+				"routewarnin",
+				"app/Route/Warnings.php"
+			],
+			[
+				"routefeature",
+				"app/Route/Features.php"
+			],
+			[
+				"endpo",
+				"app/Middleware/EndpointPermission.php"
+			],
+			[
+				"routeprofiles",
+				"app/Route/Profiles.php"
+			],
+			[
+				"entityrole",
+				"app/Entity/Role.php"
+			],
+			[
+				"featureseed",
+				"db/seeds/S23FeaturesSeed.php"
+			],
+			[
+				"dbident",
+				"app/Repository/DBIdentity.php"
+			],
+			[
+				"dbidentin",
+				"db/migrations/20151201150000_identity_init.php"
+			],
+			[
+				"ide",
+				"app/Entity/Identity.php"
+			],
+			[
+				"entitymember",
+				"app/Entity/Member.php"
+			],
+			[
+				"contromembers",
+				"app/Controller/Members.php"
+			],
+			[
+				"routecredent",
+				"app/Route/Credentials.php"
+			],
+			[
+				"rotueserv",
+				"app/Route/Service.php"
+			],
+			[
+				"routeserhandler",
+				"app/Route/ServiceHandler.php"
+			],
+			[
+				"rotuereview",
+				"app/Route/Reviews.php"
+			],
+			[
+				"routeprofil",
+				"app/Route/Profiles.php"
+			],
+			[
+				"rotuecompanies",
+				"app/Route/Companies.php"
+			],
+			[
+				"controcompanies",
+				"app/Controller/Companies.php"
+			],
+			[
+				"dbcompany",
+				"db/migrations/20151201154102_company_init.php"
+			],
+			[
+				"istal",
+				"schema/listAll.json"
+			],
+			[
+				"compan",
+				"app/Controller/Companies.php"
+			],
+			[
+				"",
+				"app/Middleware/Auth.php"
+			],
+			[
+				"identity",
+				"app/Entity/Identity.php"
+			],
+			[
+				"endpoiperm",
+				"app/Middleware/EndpointPermission.php"
+			],
+			[
+				"routemember",
+				"app/Route/Members.php"
+			],
+			[
+				"routecredentials",
+				"app/Route/Credentials.php"
+			],
+			[
+				"routepermi",
+				"app/Route/Permissions.php"
+			],
+			[
+				"handlerpermissio",
+				"app/Handler/Permission.php"
+			],
+			[
+				"commandpermissiondel",
+				"app/Command/Permission/DeleteAll.php"
+			],
+			[
+				"routepermiss",
+				"app/Route/Permissions.php"
+			],
+			[
+				"contropermiss",
+				"app/Controller/Permissions.php"
+			],
+			[
+				"routesettin",
+				"app/Route/Settings.php"
+			],
+			[
+				"routepermis",
+				"app/Route/Permissions.php"
+			],
+			[
+				"routehook",
+				"app/Route/Hooks.php"
+			],
+			[
+				"hookupdaone",
+				"app/Command/Hook/UpdateOne.php"
+			],
+			[
+				"handlehook",
+				"app/Handler/Hook.php"
+			],
+			[
+				"hookgetone",
+				"app/Command/Hook/GetOne.php"
+			],
+			[
+				"validahook",
+				"app/Validator/Hook.php"
+			],
+			[
+				"hookinter",
+				"app/Repository/HookInterface.php"
+			],
+			[
+				"dbhook",
+				"app/Repository/DBHook.php"
+			],
+			[
+				"cotnrohooks",
+				"app/Controller/Hooks.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 525.0,
+		"last_filter": "idos",
+		"selected_items":
+		[
+			[
+				"idos",
+				"~/Projects/veridu/idos/api/idos.sublime-project"
+			],
+			[
+				"dashbar",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"dash",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"demo",
+				"~/Projects/veridu/demos-src/new-payments/veridu-demo-payments.sublime-project"
+			],
+			[
+				"dashb",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"das",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"",
+				"~/Projects/veridu/idos/api/idos.sublime-project"
+			]
+		],
+		"width": 399.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 367.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
