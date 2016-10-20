@@ -1,0 +1,20 @@
+h1,h2,h3,h4,h5,h6,p,footer,header,div,small,a, ul, li, table, td, tr, thead, tbody, strong,  {
+    font-family: $font-family-base !important;
+    font-weight: normal;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    background-color: transparent;
+    min-height: 0;
+    min-width: 0;
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

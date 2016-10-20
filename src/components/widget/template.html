@@ -1,0 +1,11 @@
+<div class="veridu-embedded_widget">
+    <widget-header :state.sync="state"></widget-header>
+    <progress v-show="state === 'initial'"></progress>
+    <div class="veridu-embedded_widget__body">
+        <introduction v-show="state === 'initial'" :state.sync="state"></introduction>
+        <providers :state.sync="state" :providers="primaryProviders" ></providers>
+        <secondary-providers :state.sync="state" :providers="secondaryProviders" ></secondary-providers>
+    </div>
+    <widget-footer :state="state" :merchant="merchant"></widget-footer>
+    <pre>{{state | json}}</pre>
+</div>

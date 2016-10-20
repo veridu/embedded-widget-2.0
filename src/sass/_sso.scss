@@ -1,0 +1,10 @@
+$veridu-sso-side-padding: 30px;
+
+.veridu-sso {
+    display: table;
+
+    > div {
+        display: table-cell;
+        background: red;
+    }
+}

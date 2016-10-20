@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "devDependencies": {
+    "elixir-jshint": "^1.1.2",
+    "gulp": "^3.9.1",
+    "jshint": "^2.9.1",
+    "laravel-elixir-vueify": "^1.0.3",
+    "react": "^15.0.2",
+    "vue-i18n": "^4.0.1",
+    "vue-resource": "^0.7.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.3",
+    "bootstrap-sass": "^3.0.0",
+    "jquery": "^2.2.2",
+    "laravel-elixir": "^5.0.0",
+    "vue": "^1.0.*"
+  }
+}

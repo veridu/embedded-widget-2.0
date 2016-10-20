@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real widget test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div style="text-align: center;">
+		<div id="veridu-embedded_widget"></div>
+	</div>
+
+	<br>
+	<br>
+	<br>
+
+	<div style="text-align: center;">
+		<button type="button" onclick="increase();">Increase Widget Size</button>
+		<button type="button" onclick="decrease();">Decrease Widget Size</button>
+	</div>
+	<script src="https://widget.veridu.com/0.3/olc?key=798e43f7e627ca4e2ef4a06f52c298b8667e12fd&name=69108471dc95cb481ac530f70c45cb17" charset="utf-8"></script>	
+	<script type="text/javascript">
+		var size = 15;
+		var wid = document.querySelector('#veridu-embedded_widget');
+
+		function increase() {
+			wid.style.fontSize = (size + 1) + 'px';
+			size++;
+		}
+
+		function decrease() {
+			wid.style.fontSize = (size -1) + 'px';
+			size--;
+		}
+	</script>
+</body>
+</html>
