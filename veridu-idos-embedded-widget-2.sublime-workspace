@@ -520,37 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/components/widget.vue",
+			"file": "src/components/veridu-button.vue",
 			"settings":
 			{
-				"buffer_size": 9254,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/main.js",
-			"settings":
-			{
-				"buffer_size": 924,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/index.html",
-			"settings":
-			{
-				"buffer_size": 1953,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/config.js",
-			"settings":
-			{
-				"buffer_size": 1383,
+				"buffer_size": 6961,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -1102,20 +1075,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components"
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0"
 	],
 	"file_history":
 	[
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/config.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/index.html",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/.gitignore",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/veridu.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/local-publish.sh",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/main.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget-header.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/veridu-button.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/providers.vue",
 		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget/component.js",
 		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget.vue",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/main.js",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/config.js",
 		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Widget/DeleteOne.php",
 		"/home/rafael/Projects/veridu/idos/api/app/Controller/Company/Widgets.php",
 		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Widgets.php",
@@ -1231,21 +1206,19 @@
 		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Sources.php",
 		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Features.php",
 		"/home/rafael/Projects/veridu/idos/api/app/Entity/Company/Member.php",
-		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Credentials.php",
-		"/home/rafael/Projects/veridu/idos/api/app/Entity/Role.php",
-		"/home/rafael/Projects/veridu/idos/api/schema/member/memberEntity.json",
-		"/home/rafael/Projects/veridu/idos/api/app/Route/Profiles.php",
-		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Gates.php"
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Credentials.php"
 	],
 	"find":
 	{
-		"height": 79.0
+		"height": 81.0
 	},
 	"find_in_files":
 	{
 		"height": 180.0,
 		"where_history":
 		[
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/",
 			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
 			"",
 			"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Widget",
@@ -1311,6 +1284,21 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"logout",
+			"VeriduEmbeddedWidget",
+			"IDOS_EMBEDDED_WIDGET_CONFIG",
+			"http",
+			":8082",
+			"https",
+			"#veridu",
+			"veridu",
+			"VERIDU",
+			"com",
+			"veridu",
+			"veridu.com",
+			"VeriduEmbeddedWidget",
+			"arc",
+			"api",
 			"veridu-embedded_widget",
 			"veridu",
 			"el",
@@ -1423,22 +1411,7 @@
 			"Hook",
 			"AssertId",
 			"url",
-			"assertName",
-			"trigger",
-			"AssertTriggerName",
-			"AssertId",
-			"hook",
-			"Hook",
-			"credential",
-			"credentialP",
-			"targetCompany",
-			"company",
-			"credentialId",
-			"Id",
-			"label",
-			"config",
-			"credentialId",
-			"company"
+			"assertName"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1500,30 +1473,29 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/widget.vue",
+					"file": "src/components/veridu-button.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9254,
+						"buffer_size": 6961,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8146,
-								8146
+								4384,
+								4384
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -1532,117 +1504,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 577.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 924,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								437,
-								437
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 826.0,
+						"translation.y": 6157.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1953,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								729,
-								729
-							],
-							[
-								983,
-								983
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 107.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1383,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								250,
-								250
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1701,16 +1566,24 @@
 		"selected_items":
 		[
 			[
-				"mainjs",
-				"src/main.js"
+				"veribu",
+				"src/components/veridu-button.vue"
+			],
+			[
+				"index",
+				"src/index.html"
 			],
 			[
 				"config",
 				"src/config.js"
 			],
 			[
-				"index",
-				"src/index.html"
+				"publ",
+				"local-publish.sh"
+			],
+			[
+				"mainjs",
+				"src/main.js"
 			],
 			[
 				"local",
@@ -2203,14 +2076,6 @@
 			[
 				"controllgates",
 				"app/Controller/Profile/Gates.php"
-			],
-			[
-				"routesettings",
-				"app/Route/Company/Settings.php"
-			],
-			[
-				"routecompanes",
-				"app/Route/Companies.php"
 			]
 		],
 		"width": 0.0
@@ -2218,9 +2083,13 @@
 	"select_project":
 	{
 		"height": 525.0,
-		"last_filter": "dash",
+		"last_filter": "idos",
 		"selected_items":
 		[
+			[
+				"idos",
+				"~/Projects/veridu/idos/api/idos.sublime-project"
+			],
 			[
 				"dash",
 				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
@@ -2228,10 +2097,6 @@
 			[
 				"widget",
 				"~/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-project"
-			],
-			[
-				"idos",
-				"~/Projects/veridu/idos/api/idos.sublime-project"
 			],
 			[
 				"sdk",

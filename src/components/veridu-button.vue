@@ -155,9 +155,10 @@
         <small class="veridu-embedded-widget-button-label">
             {{ label }}
         </small>
-        <small class="veridu-embedded-widget-button-logout">
+<!--         <small class="veridu-embedded-widget-button-logout">
             {{ translate('general.logout') }}
         </small>
+ -->   
     </div>
 </template>
 
@@ -191,7 +192,7 @@ export default {
             } else {
                 let uri,
                     publicKey = '4c9184f37cff01bcdc32dc486ec36961',
-                    base_url = `http://widget.idos.io:8001/index.php/1.0/`;
+                    base_url = `https://widget.idos.io/1.0/`;
                 
                 if (this.$root.authenticated) {
                     uri  = `oauth/${this.provider.key}/${publicKey}?userToken=${this.$root.tokens.user_token}`;
