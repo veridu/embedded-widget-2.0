@@ -137,19 +137,7 @@ export default {
         },
 
         logout(provider) {
-            this.$http.delete(`https://api.veridu.com/${cfg.version}/provider/${cfg.olc.username}/${provider}/`, {}, {
-                headers : {
-                    'Veridu-Session': cfg.olc.session,
-                    'Veridu-Client': cfg.olc.key
-                }
-            })
-            .then(
-                (r) => {
-                    this.$broadcast(`logout.${provider}`);
-                    this.loading = true;
-                    this.poll();
-                }
-            );
+            
         },
 
         initAnalytics() {
@@ -179,7 +167,7 @@ export default {
             this.goal('user-verified');
         },
         poll() {
-            this.$http.get(`http://api.idos.io:8000/index.php/1.0/profiles/_self`, {}, {
+            this.$http.get(`https://api.idos.io/1.0/profiles/_self`, {}, {
                 headers : {
                     'Authorization': `UserToken ${this.tokens.user_token}`
                 }
