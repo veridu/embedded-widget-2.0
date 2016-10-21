@@ -5,8 +5,8 @@ const prefs = normalizePrefs(window.IDOS_EMBEDDED_WIDGET_CONFIG.preferences);
 
 export default {
     debug: local,
-    assetsBaseUrl: local ? `./` : `https://assets.idos.io/`,
-    imgAssetsBaseUrl: local ? `./img` : `https://assets.idos.io/img/embedded-widget/`,
+    assetsBaseUrl: local ? `./` : `https://assets.idos.io/1.0/`,
+    imgAssetsBaseUrl: local ? `./img` : `https://assets.idos.io/1.0/img/embedded-widget/`,
     version: version,
     preferences: prefs,
     olc: {
