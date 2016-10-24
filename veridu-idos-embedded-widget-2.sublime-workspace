@@ -1,0 +1,2279 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"fun\tFunction"
+			],
+			[
+				"aut",
+				"authenticated"
+			],
+			[
+				"compa",
+				"companyId"
+			],
+			[
+				"signu",
+				"signupHash"
+			],
+			[
+				"dashb",
+				"dashboardName"
+			],
+			[
+				"g",
+				"$gearmanClient〔variable〕"
+			],
+			[
+				"comm",
+				"command"
+			],
+			[
+				"invitati",
+				"$invitation〔variable〕"
+			],
+			[
+				"Member",
+				"MemberException"
+			],
+			[
+				"expire",
+				"expiresDateTime"
+			],
+			[
+				"strt",
+				"strtotime〔function〕"
+			],
+			[
+				"throw",
+				"throw\tThrow Exception"
+			],
+			[
+				"ivni",
+				"$invitation〔variable〕"
+			],
+			[
+				"identid",
+				"identityId"
+			],
+			[
+				"inv",
+				"invite"
+			],
+			[
+				"invite",
+				"$invite〔variable〕"
+			],
+			[
+				"company",
+				"$company〔variable〕"
+			],
+			[
+				"Company",
+				"CompanyEntity〔namespace〕"
+			],
+			[
+				"create",
+				"createNewMember〔function〕"
+			],
+			[
+				"App",
+				"AppException〔namespace〕"
+			],
+			[
+				"thr",
+				"throw\tThrow Exception"
+			],
+			[
+				"sso",
+				"Sso〔namespace〕"
+			],
+			[
+				"iden",
+				"identityMembers"
+			],
+			[
+				"compnid",
+				"companyId"
+			],
+			[
+				"relat",
+				"relationEntity"
+			],
+			[
+				"identi",
+				"$identityId〔variable〕"
+			],
+			[
+				"identit",
+				"identity_id"
+			],
+			[
+				"cren",
+				"$credentialId〔variable〕"
+			],
+			[
+				"user_id",
+				"user_identities"
+			],
+			[
+				"credentid",
+				"$credentialId〔variable〕"
+			],
+			[
+				"findOne",
+				"findOneByIdentityIdAndCompanyId〔function〕"
+			],
+			[
+				"Us",
+				"UserException〔namespace〕"
+			],
+			[
+				"NotF",
+				"NotFound〔namespace〕"
+			],
+			[
+				"find",
+				"findByCompanyId"
+			],
+			[
+				"ssu",
+				"subscriptionRepository"
+			],
+			[
+				"cred",
+				"credential"
+			],
+			[
+				"sub",
+				"subscription"
+			],
+			[
+				"subscri",
+				"Subscription"
+			],
+			[
+				"subscr",
+				"subscriptionRepository"
+			],
+			[
+				"susc",
+				"$subscription〔variable〕"
+			],
+			[
+				"attr",
+				"attributeRepository"
+			],
+			[
+				"forea",
+				"foreach\tforeach …"
+			],
+			[
+				"att",
+				"$attribute〔variable〕"
+			],
+			[
+				"atrt",
+				"$attributes〔variable〕"
+			],
+			[
+				"warnin",
+				"warning_id"
+			],
+			[
+				"Exception",
+				"SubscriptionException"
+			],
+			[
+				"AbstractE",
+				"AbstractEvent〔class〕"
+			],
+			[
+				"event",
+				"$event〔variable〕"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"service",
+				"serviceRepository"
+			],
+			[
+				"command",
+				"$command〔variable〕"
+			],
+			[
+				"assert",
+				"assertCredential〔function〕"
+			],
+			[
+				"arraym",
+				"array_merge〔function〕"
+			],
+			[
+				"T",
+				"Task〔namespace〕"
+			],
+			[
+				"compan",
+				"$companyId〔variable〕"
+			],
+			[
+				"Event",
+				"EventInterface〔namespace〕"
+			],
+			[
+				"array_m",
+				"array_merge〔function〕"
+			],
+			[
+				"queu",
+				"App\\Event\\ServiceQueueEventInterface〔interface〕"
+			],
+			[
+				"qu",
+				"queueListeningServices〔function〕"
+			],
+			[
+				"Serv",
+				"QueueServiceTaskListener〔class〕"
+			],
+			[
+				"dispa",
+				"$dispatchFailed〔variable〕"
+			],
+			[
+				"json",
+				"json_decode〔function〕"
+			],
+			[
+				"disp",
+				"dispatchUnhandleEvent"
+			],
+			[
+				"object",
+				"object〔keyword〕"
+			],
+			[
+				"handl",
+				"$handlers〔variable〕"
+			],
+			[
+				"cast",
+				"castHydrate〔function〕"
+			],
+			[
+				"handle",
+				"handlers"
+			],
+			[
+				"bind",
+				"$bindings〔variable〕"
+			],
+			[
+				"comp",
+				"$companyId〔variable〕"
+			],
+			[
+				"bindin",
+				"bindings"
+			],
+			[
+				"ge",
+				"gearmanClient"
+			],
+			[
+				"co",
+				"companyId"
+			],
+			[
+				"wh",
+				"whereColumn〔function〕"
+			],
+			[
+				"Ident",
+				"IdentityToken"
+			],
+			[
+				"getA",
+				"getAttribute〔function〕"
+			],
+			[
+				"warn",
+				"warning_id"
+			],
+			[
+				"creden",
+				"$credential〔variable〕"
+			],
+			[
+				"com",
+				"companyId〔variable〕"
+			],
+			[
+				"settin",
+				"$setting〔variable〕"
+			],
+			[
+				"fin",
+				"findOneByCompanyAndId〔function〕"
+			],
+			[
+				"empty",
+				"empty〔function〕"
+			],
+			[
+				"assertId",
+				"assertId〔function〕"
+			],
+			[
+				"setti",
+				"settingId"
+			],
+			[
+				"get",
+				"getAllPublicByCompanyId〔function〕"
+			],
+			[
+				"CO",
+				"COMPANY〔constant〕"
+			],
+			[
+				"Assert",
+				"AssertEntity〔trait〕"
+			],
+			[
+				"member",
+				"$member〔variable〕"
+			],
+			[
+				"targ",
+				"$targetCompany〔variable〕"
+			],
+			[
+				"array_has",
+				"array_has〔function〕"
+			],
+			[
+				"ide",
+				"$identityCompanies〔variable〕"
+			],
+			[
+				"comma",
+				"$command〔variable〕"
+			],
+			[
+				"companies",
+				"$companies〔variable〕"
+			],
+			[
+				"Ide",
+				"IdentityInterface〔interface〕"
+			],
+			[
+				"identity",
+				"identityPubKey"
+			],
+			[
+				"i",
+				"IDENTITY〔constant〕"
+			],
+			[
+				"Aut",
+				"AuthNew〔class〕"
+			],
+			[
+				"Requires",
+				"RequiresCompanyToken〔trait〕"
+			],
+			[
+				"statu",
+				"status1"
+			],
+			[
+				"proc",
+				"proccessDefaultRequest〔function〕"
+			],
+			[
+				"serial",
+				"$serialized〔variable〕"
+			],
+			[
+				"Requ",
+				"RequiresUserToken"
+			],
+			[
+				"setPara",
+				"setParameter"
+			],
+			[
+				"Requi",
+				"RequiresUserToken〔trait〕"
+			],
+			[
+				"Valida",
+				"ValidateFlag〔trait〕"
+			],
+			[
+				"property",
+				"property_exists〔function〕"
+			],
+			[
+				"souc",
+				"$source〔variable〕"
+			],
+			[
+				"key",
+				"key_exists〔function〕"
+			],
+			[
+				"objec",
+				"objectHasAttribute〔function〕"
+			],
+			[
+				"permiss",
+				"$permissions〔variable〕"
+			],
+			[
+				"updated",
+				"updated_at"
+			],
+			[
+				"ACC",
+				"ACCESS_WRITE"
+			],
+			[
+				"AC",
+				"ACCESS_READ"
+			],
+			[
+				"P",
+				"PARENT_ACTION〔constant〕"
+			],
+			[
+				"Compa",
+				"CompanyPermission〔namespace〕"
+			],
+			[
+				"res",
+				"$response〔variable〕"
+			],
+			[
+				"S",
+				"SELF_OR_PARENT_ACTION〔constant〕"
+			],
+			[
+				"creat",
+				"created_at〔variable〕"
+			],
+			[
+				"Servi",
+				"ServiceHandlerEntity〔namespace〕"
+			],
+			[
+				"ls",
+				"listens"
+			],
+			[
+				"Dele",
+				"DeleteOne〔namespace〕"
+			],
+			[
+				"delet",
+				"deleteBy〔function〕"
+			],
+			[
+				"parent",
+				"parentId"
+			],
+			[
+				"asauth",
+				"assertAuthUsername〔function〕"
+			],
+			[
+				"or",
+				"orWhere〔function〕"
+			],
+			[
+				"param",
+				"parameters"
+			],
+			[
+				"Ab",
+				"AbstractUnit〔namespace〕"
+			],
+			[
+				"para",
+				"$parameter〔variable〕"
+			],
+			[
+				"parame",
+				"parameter"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/components/veridu-button.vue",
+			"settings":
+			{
+				"buffer_size": 6550,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/widget.vue",
+			"settings":
+			{
+				"buffer_size": 8759,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/config.js",
+			"settings":
+			{
+				"buffer_size": 1383,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 371.0,
+		"last_filter": "comm",
+		"selected_items":
+		[
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"fully",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"finduse",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"tot",
+				"View: Toggle Tabs"
+			],
+			[
+				"sdbrv",
+				"Side Bar: Reveal File"
+			],
+			[
+				"sbrv",
+				"Side Bar: Reveal File"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"material",
+				"Material Theme: Activate theme"
+			],
+			[
+				"activa",
+				"Material Theme: Activate theme"
+			],
+			[
+				"theme",
+				"Boxy Theme: Activation"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"preferen",
+				"Preferences: Settings"
+			],
+			[
+				"to",
+				"View: Toggle Menu"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"findu",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"findus",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"tm",
+				"View: Toggle Menu"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"dbrv",
+				"Side Bar: Reveal File"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"find",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"f",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"use",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"acti",
+				"Material Theme: Activate theme"
+			],
+			[
+				"fin",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"full",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"fidn",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"activat",
+				"Boxy Theme: Activation"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Convert Case: Lower Case"
+			],
+			[
+				"path",
+				"File: Copy Path"
+			],
+			[
+				"imple",
+				"PHPCompanion:Implement Interface"
+			],
+			[
+				"impl",
+				"PHPCompanion:Implement Interface"
+			],
+			[
+				"select",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"fiduse",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"fulln",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"fllnam",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"complice",
+				"CodeComplice: Dump Import Directories"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"moe",
+				"File: Move"
+			],
+			[
+				"dsiable",
+				"Package Control: Disable Package"
+			],
+			[
+				"activ",
+				"Material Theme: Activate theme"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"closeal",
+				"File: Close All"
+			],
+			[
+				"saveall",
+				"File: Save All"
+			],
+			[
+				"save",
+				"File: Save All"
+			],
+			[
+				"saveal",
+				"File: Save All"
+			],
+			[
+				"fulna",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"dash",
+				"DoxyDoxygen: Update Comment With User-Selected Style (interactive)..."
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"activate",
+				"Material Theme: Activate theme"
+			],
+			[
+				"savel",
+				"File: Save All"
+			],
+			[
+				"fuln",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"fulnam",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"u",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"name",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"closel",
+				"File: Close All"
+			],
+			[
+				"",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"tom",
+				"View: Toggle Menu"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"col",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"omm",
+				"DoxyDoxygen: Comment All"
+			],
+			[
+				"finsue",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"edel",
+				"File: Delete"
+			],
+			[
+				"ins",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"rev",
+				"File: Reveal"
+			],
+			[
+				"usser",
+				"DoxyDoxygen: Update Comment With User-Selected Style (interactive)..."
+			],
+			[
+				"ser",
+				"Set Syntax: R"
+			],
+			[
+				"qname",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"qn",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"finuse",
+				"PHPCompanion:Find Use"
+			],
+			[
+				"set php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ass",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"qnae",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"qu",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"phpcomp",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"filpa",
+				"File: Copy Path as URI"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"closal",
+				"File: Close All"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"sdv",
+				"SFTP: Delete Server…"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"closa",
+				"File: Close All"
+			],
+			[
+				"sava",
+				"File: Save All"
+			],
+			[
+				"refres",
+				"Project: Refresh Folders"
+			],
+			[
+				"folder",
+				"File: New Folder Relative to Project Root"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"clsoeall",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"savall",
+				"File: Save All"
+			],
+			[
+				"tos",
+				"View: Toggle Status Bar"
+			],
+			[
+				"st",
+				"View: Toggle Status Bar"
+			],
+			[
+				"tost",
+				"View: Toggle Status Bar"
+			],
+			[
+				"dbini",
+				"Preferences: DoxyDoxygen Key Bindings (Linux) - Default"
+			],
+			[
+				"tota",
+				"View: Toggle Tabs"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"tst",
+				"DoxyDoxygen: Translate Selection To..."
+			],
+			[
+				"refresh",
+				"Project: Refresh Folders"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"tog a",
+				"View: Toggle Tabs"
+			],
+			[
+				"tot tab",
+				"View: Toggle Status Bar"
+			],
+			[
+				"togsta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"togta",
+				"View: Toggle Tabs"
+			],
+			[
+				"togtab",
+				"View: Toggle Tabs"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			]
+		],
+		"width": 679.0
+	},
+	"console":
+	{
+		"height": 260.0,
+		"history":
+		[
+			"pwd",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0"
+	],
+	"file_history":
+	[
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/local-publish.sh",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/config.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/index.html",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/.gitignore",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/veridu.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/main.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget-header.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/veridu-button.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/providers.vue",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget/component.js",
+		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget.vue",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Widget/DeleteOne.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Company/Widgets.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Widgets.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Company/Widget.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Widget/Deleted.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Widget/UpdateOne.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Widget/CreateNew.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Sso.php",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20161012130615_widgets.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Hook/Created.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Widget/Created.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Widget/DeletedMulti.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Widget/Updated.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Exception/Create/Company/WidgetException.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Company/Widget.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Hooks.php",
+		"/home/rafael/Projects/veridu/idos/api/vendor/illuminate/contracts/Redis/Database.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Company/Hook.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Exception/Validate/Company/WidgetException.php",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20161012130615_widget_olc.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Entity/Company/Invitation.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Company/DBMember.php",
+		"/home/rafael/Projects/veridu/idos/api/db/migrations/20161005200841_invitations.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Company/DBInvitation.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Company/Profiles.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Middleware/Auth.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/DBIdentity.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Company/Invitations.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNew.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Company/Invitation.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Company/Member.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Company/InvitationInterface.php",
+		"/home/rafael/Projects/veridu/idos/api/vendor/bin/optimus",
+		"/home/rafael/Projects/veridu/idos/api/vendor/jenssegers/optimus/optimus",
+		"/home/rafael/Projects/veridu/idos/api/vendor/phpunit/php-file-iterator/src/Factory.php",
+		"/home/rafael/Projects/veridu/idos/api/vendor/symfony/console/Application.php",
+		"/home/rafael/Projects/veridu/idos/api/vendor/symfony/console/Command/Command.php",
+		"/home/rafael/Projects/veridu/idos/api/vendor/theseer/phpdox/src/shared/Factory.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Company/Members.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Invitations.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Company/Invitation.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Traits/AssertString.php",
+		"/home/rafael/Projects/veridu/idos/api/log/api-20161011.log",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Traits/AssertName.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Sso.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Profile/Flag.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Company/MemberInterface.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S11CredentialsSeed.php",
+		"/home/rafael/Projects/veridu/idos/handlers/idos-widget/app/Command/Widget/Callback.php",
+		"/home/rafael/Projects/veridu/idos/handlers/idos-widget/config/tokens.php",
+		"/home/rafael/Projects/veridu/idos/handlers/idos-widget/vendor/lusitanian/oauth/src/OAuth/Common/Storage/TokenStorageInterface.php",
+		"/home/rafael/Projects/veridu/idos/handlers/idos-widget/app/Validator/Widget.php",
+		"/home/rafael/Projects/veridu/idos/handlers/idos-widget/vendor/monolog/monolog/doc/02-handlers-formatters-processors.md",
+		"/home/rafael/.config/sublime-text-3/Local/Session.sublime_session",
+		"/home/rafael/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-project",
+		"/home/rafael/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-workspace",
+		"/home/rafael/Projects/veridu/idos/api/idos.sublime-project",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Source.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Profile/Source.php",
+		"/home/rafael/Projects/veridu/idos/api/vendor/mongodb/mongodb/src/Model/IndexInfoIteratorIterator.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Members.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNewGoogle.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNewFacebook.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNewPaypal.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNewLinkedin.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNewTwitter.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Sso/CreateNewAmazon.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Profiles.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Profile/DBFlag.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Listener/Company/InvitationProvider.php",
+		"/home/rafael/Projects/veridu/idos/api/config/dependencies.php",
+		"/home/rafael/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/rafael/Projects/veridu/idos/api/app/Listener/QueueCompanyServiceHandlers.php",
+		"/home/rafael/Projects/veridu/idos/api/config/settings.php",
+		"/home/rafael/Projects/veridu/idos/api/config/settings.php.dist",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Company/Profile.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Profile/DBCandidate.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Review/UpdateOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Functional/Review/GetOneTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Profile/ScoreInterface.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Profile/ReferenceInterface.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Profile/RawInterface.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Profile/DBReference.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Listener/Profile/FlagProvider.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Profile/DBTag.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/ServiceHandlerInterface.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Listener/Manager/QueueServiceTaskListener.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Handler/Profile/Flag.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Invitation/Created.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S11SettingsSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Repository/Company/DBSetting.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Listener/Handler/EmailProvider.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Listener/Handler/Email/SendsInvitation.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Member/InvitationCreated.php",
+		"/home/rafael/Projects/veridu/idos/api/log/api-20161008.log",
+		"/home/rafael/Projects/veridu/idos/api/app/Listener/Company/MemberProvider.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Unit/Controller/MembersTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Member/CreateNewInvitation.php",
+		"/home/rafael/Projects/veridu/idos/api/log/api-20161007.log",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Company/Member.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Traits/AssertDate.php",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S41InvitationsSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Validator/Traits/AssertEmail.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Member/DeletedInvitation.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Member/DeleteInvitation.php",
+		"/home/rafael/Projects/veridu/idos/api/test/Unit/Handler/MemberTest.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Entity/Invitation.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Exception/Validate/Company/InvitationException.php",
+		"/home/rafael/Projects/veridu/idos/api/log/api-20161006.log",
+		"/home/rafael/Projects/veridu/idos/api/db/seeds/S41InvitesSeed.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Member/CreateNewInvite.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Sources.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Features.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Entity/Company/Member.php",
+		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Credentials.php"
+	],
+	"find":
+	{
+		"height": 79.0
+	},
+	"find_in_files":
+	{
+		"height": 180.0,
+		"where_history":
+		[
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/",
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/app/Event/Company/Widget",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/db",
+			"/home/rafael/Projects/veridu/idos/db",
+			"/home/rafael/Projects/veridu/idos/",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/Permission",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/Credential",
+			"/home/rafael/Projects/veridu/idos/api/test/Functional/Company",
+			"/home/rafael/Projects/veridu/idos/api",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api/db/seeds",
+			"/home/rafael/Projects/veridu/idos/api/db/",
+			"/home/rafael/Projects/veridu/idos/api",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/app/Route",
+			"",
+			"(CompanyPermission",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/vendor/robmorgan/phinx/src/Phinx",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"",
+			"strict_types=1",
+			"",
+			"strict_types=1",
+			"",
+			"/home/rafael/Projects/veridu/dashboard/application",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/demos-src/sharing-economy/src",
+			"/home/rafael/Projects/veridu/demos-src/sharing-economy/src/sass",
+			"/home/rafael/Projects/veridu/demos-src/sharing-economy/src",
+			"/home/rafael/Projects/veridu/demos-src/new-payments/src",
+			"/home/rafael/Projects/veridu/demos-src/new-payments/src/js",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/vue-popup/src",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api/test/Unit/Command/Permission",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/i18n",
+			"",
+			"/home/rafael/Projects/veridu/idos/api/app",
+			"/home/rafael/Projects/veridu/idos/api",
+			"/home/rafael/Projects/veridu/demos/onboarding",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components",
+			"/home/rafael/Projects/veridu/idos/api/",
+			"/home/rafael/Projects/veridu/idos/api/app/Repository/",
+			"/home/rafael/Projects/veridu/idos/api/app/Command/Credential",
+			"/home/rafael/Projects/veridu/idos/api/app/Command/Company",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"hover",
+			":hover",
+			"http",
+			"8000",
+			"8001",
+			"logout",
+			"VeriduEmbeddedWidget",
+			"IDOS_EMBEDDED_WIDGET_CONFIG",
+			"http",
+			":8082",
+			"https",
+			"#veridu",
+			"veridu",
+			"VERIDU",
+			"com",
+			"veridu",
+			"veridu.com",
+			"VeriduEmbeddedWidget",
+			"arc",
+			"api",
+			"veridu-embedded_widget",
+			"veridu",
+			"el",
+			"preferences",
+			"VERIDU_CONFIG_embedded_widget",
+			"veridu.com",
+			"assets.veridu.com",
+			"assets",
+			"api",
+			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/",
+			"inish(",
+			"loadginpr",
+			"loadingProviders",
+			"loadedProviders",
+			"loaded",
+			"100",
+			"pass",
+			"authenticated",
+			"user",
+			"data.",
+			"lightFacts",
+			"user",
+			"function",
+			"&& ",
+			"GATE",
+			"name",
+			"facts",
+			"UserToken",
+			"https",
+			".poll",
+			"progress",
+			"cfg",
+			"Veridu",
+			"logout",
+			"authenticated",
+			"provider",
+			"this",
+			"provider.added",
+			"dispatch",
+			"facts",
+			"bau",
+			"sso",
+			"4c9184f37cff01bcdc32dc486ec36961",
+			"url",
+			"var",
+			"endpoint",
+			"str",
+			"provider",
+			"ssothis",
+			"authenticated",
+			"com",
+			"veridu",
+			"auth",
+			"Psr\\",
+			"Psr",
+			"widget",
+			"App",
+			"Widget",
+			"widget",
+			"widgetId",
+			"id",
+			"hash",
+			"widgetId",
+			"widgetHash",
+			"delete",
+			"creator",
+			"identity",
+			"hash",
+			"$hash",
+			"credentialPubKey",
+			"widget",
+			"to",
+			"Hook",
+			"Credential",
+			"companyId",
+			"public",
+			"credn",
+			"type",
+			"getParsedBodyP",
+			"getPra",
+			"config",
+			"type",
+			"hash",
+			"label",
+			"trigger",
+			"label",
+			"widgetId",
+			"label",
+			"CreateNew",
+			" .",
+			"random_",
+			"Id",
+			"false",
+			"null",
+			"text",
+			"type",
+			"config",
+			"hook",
+			"Hook",
+			"label",
+			"Hook",
+			"name",
+			"cre",
+			"config",
+			"id",
+			"credential",
+			"credential_id",
+			"subscribed"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"widget",
+			"Widget",
+			"return \\App",
+			"see \\App",
+			"Entity\\Company\\Invitation",
+			"invitation",
+			"invitationRepository",
+			"invitation",
+			"Invitation",
+			"/companies/veridu-ltd/",
+			"$this->identityTokenHeader()",
+			"RequiresIdentityToken",
+			"$this->identityTokenHeader()",
+			"Auth::IDENTITY",
+			"            ->add($permission(\n                EndpointPermission::SELF_ACTION | EndpointPermission::PARENT_ACTION, \n                Role::COMPANY_OWNER_BIT | Role::COMPANY_ADMIN_BIT\n            ))\n",
+			"",
+			"AbstractEntity {\n    /**",
+			"",
+			"PRIVATE_ACTION",
+			"PUBLIC_ACTION",
+			"PROTECTED_ACTION",
+			"getAll(array $queryParams = [])",
+			"public function getAll(array $queryParams) : Collection {",
+			"public function getAll(array $queryParams) : Collection;",
+			"get('companyPermissionMiddleware')",
+			"use App\\Middleware\\CompanyPermission;",
+			"(CompanyPermission",
+			"",
+			"declare(strict_types=1);",
+			"strict_types=1",
+			"eventEmitter",
+			"20px",
+			">\n",
+			"routeName",
+			"route_name",
+			"permissions",
+			"permission",
+			"Permissions",
+			"Permission",
+			"\\Psr\\Http\\Message\\ServerRequestInterface",
+			"\\Psr\\Http\\Message\\ResponseInterface",
+			"namespace App\\Command\\Credential;",
+			"namespace App\\Command\\Company;",
+			"Settings"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/components/veridu-button.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6550,
+								6550
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 547.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/widget.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5471,
+								5471
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 563.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 78.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 204.0
+	},
+	"pinned_build_system": "",
+	"project": "veridu-idos-embedded-widget-2.sublime-project",
+	"replace":
+	{
+		"height": 92.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"local",
+				"local-publish.sh"
+			],
+			[
+				"confi",
+				"src/config.js"
+			],
+			[
+				"widget",
+				"src/components/widget.vue"
+			],
+			[
+				"veribu",
+				"src/components/veridu-button.vue"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"config",
+				"src/config.js"
+			],
+			[
+				"publ",
+				"local-publish.sh"
+			],
+			[
+				"mainjs",
+				"src/main.js"
+			],
+			[
+				"providers",
+				"src/components/providers.vue"
+			],
+			[
+				"verbu",
+				"src/components/veridu-button.vue"
+			],
+			[
+				"",
+				"src/components/widget-header.vue"
+			],
+			[
+				"header",
+				"src/components/widget-header.vue"
+			],
+			[
+				"veridubut",
+				"src/components/veridu-button.vue"
+			],
+			[
+				"co",
+				"src/config.js"
+			],
+			[
+				"mainj",
+				"src/main.js"
+			],
+			[
+				"verbutt",
+				"src/components/veridu-button.vue"
+			],
+			[
+				"provider",
+				"src/components/providers.vue"
+			],
+			[
+				"controlinv",
+				"app/Controller/Company/Invitations.php"
+			],
+			[
+				"widgetdeleted",
+				"app/Event/Company/Widget/Deleted.php"
+			],
+			[
+				"handlerwid",
+				"app/Handler/Company/Widget.php"
+			],
+			[
+				"widcereanew",
+				"app/Command/Company/Widget/CreateNew.php"
+			],
+			[
+				"handlerwidget",
+				"app/Handler/Company/Widget.php"
+			],
+			[
+				"widupadone",
+				"app/Command/Company/Widget/UpdateOne.php"
+			],
+			[
+				"widcreanew",
+				"app/Command/Company/Widget/CreateNew.php"
+			],
+			[
+				"hookcreated",
+				"app/Event/Company/Hook/Created.php"
+			],
+			[
+				"createcompanyhook",
+				"app/Exception/Create/Company/HookException.php"
+			],
+			[
+				"controwidgets",
+				"app/Controller/Company/Widgets.php"
+			],
+			[
+				"dbwidgets",
+				"db/migrations/20161012130615_widgets.php"
+			],
+			[
+				"widgetcrean",
+				"app/Command/Company/Widget/CreateNew.php"
+			],
+			[
+				"valihookex",
+				"app/Exception/Validate/Company/HookException.php"
+			],
+			[
+				"valhook",
+				"app/Validator/Company/Hook.php"
+			],
+			[
+				"handlerhook",
+				"app/Handler/Company/Hook.php"
+			],
+			[
+				"routehooks",
+				"app/Route/Company/Hooks.php"
+			],
+			[
+				"controllwidget",
+				"app/Controller/Company/Widgets.php"
+			],
+			[
+				"widgetcreanew",
+				"app/Command/Company/Widget/CreateNew.php"
+			],
+			[
+				"dbwidget",
+				"db/migrations/20161012130615_widgets.php"
+			],
+			[
+				"dbmember",
+				"app/Repository/Company/DBMember.php"
+			],
+			[
+				"dbinvi",
+				"db/migrations/20161005200841_invitations.php"
+			],
+			[
+				"dbinv",
+				"app/Repository/Company/DBInvitation.php"
+			],
+			[
+				"invitat",
+				"app/Entity/Company/Invitation.php"
+			],
+			[
+				"companyprofile",
+				"app/Controller/Company/Profiles.php"
+			],
+			[
+				"widgetolc",
+				"db/migrations/20161012130615_widget_olc.php"
+			],
+			[
+				"auth",
+				"app/Middleware/Auth.php"
+			],
+			[
+				"dbie",
+				"app/Repository/DBIdentity.php"
+			],
+			[
+				"dbident",
+				"app/Repository/DBIdentity.php"
+			],
+			[
+				"midauth",
+				"app/Middleware/Auth.php"
+			],
+			[
+				"companymembers",
+				"app/Controller/Company/Members.php"
+			],
+			[
+				"valinvi",
+				"app/Validator/Company/Invitation.php"
+			],
+			[
+				"11log",
+				"log/api-20161011.log"
+			],
+			[
+				"handlerinvi",
+				"app/Handler/Company/Invitation.php"
+			],
+			[
+				"controllersso",
+				"app/Controller/Sso.php"
+			],
+			[
+				"ssocreatenew",
+				"app/Command/Sso/CreateNew.php"
+			],
+			[
+				"sso",
+				"app/Handler/Sso.php"
+			],
+			[
+				"warning",
+				"app/Validator/Profile/Warning.php"
+			],
+			[
+				"memberin",
+				"app/Repository/Company/MemberInterface.php"
+			],
+			[
+				"cntrolmembers",
+				"app/Controller/Company/Members.php"
+			],
+			[
+				"credenseed",
+				"db/seeds/S11CredentialsSeed.php"
+			],
+			[
+				"callback",
+				"app/Command/Widget/Callback.php"
+			],
+			[
+				"tokens.php",
+				"config/tokens.php"
+			],
+			[
+				"tokens",
+				"vendor/lusitanian/oauth/src/OAuth/Common/Storage/TokenStorageInterface.php"
+			],
+			[
+				"sso.php",
+				"app/Validator/SSO.php"
+			],
+			[
+				"handlersso",
+				"app/Handler/SSO.php"
+			],
+			[
+				"ssologin",
+				"app/Command/SSO/Login.php"
+			],
+			[
+				"routesso",
+				"app/Route/SSO.php"
+			],
+			[
+				"handlersource",
+				"app/Handler/Profile/Source.php"
+			],
+			[
+				"indexapi",
+				"vendor/mongodb/mongodb/src/Model/IndexInfoIteratorIterator.php"
+			],
+			[
+				"routemember",
+				"app/Route/Company/Members.php"
+			],
+			[
+				"controllermember",
+				"app/Controller/Company/Members.php"
+			],
+			[
+				"handlermember",
+				"app/Handler/Company/Member.php"
+			],
+			[
+				"handlerinvit",
+				"app/Handler/Company/Invitation.php"
+			],
+			[
+				"memberinte",
+				"app/Repository/Company/MemberInterface.php"
+			],
+			[
+				"depende",
+				"config/dependencies.php"
+			],
+			[
+				"invprovider",
+				"app/Listener/Company/InvitationProvider.php"
+			],
+			[
+				"settings",
+				"config/settings.php"
+			],
+			[
+				"queucoma",
+				"app/Listener/QueueCompanyServiceHandlers.php"
+			],
+			[
+				"dbflag",
+				"app/Repository/Profile/DBFlag.php"
+			],
+			[
+				"routecompprf",
+				"app/Route/Company/Profiles.php"
+			],
+			[
+				"controllercompnayprofile",
+				"app/Controller/Company/Profiles.php"
+			],
+			[
+				"dbcandidate",
+				"app/Repository/Profile/DBCandidate.php"
+			],
+			[
+				"dbtag",
+				"app/Repository/Profile/DBTag.php"
+			],
+			[
+				"warningprovider",
+				"app/Listener/Profile/WarningProvider.php"
+			],
+			[
+				"queue",
+				"app/Listener/Manager/QueueServiceTaskListener.php"
+			],
+			[
+				"hanlderinv",
+				"app/Handler/Company/Invitation.php"
+			],
+			[
+				"dbsett",
+				"app/Repository/Company/DBSetting.php"
+			],
+			[
+				"invcreated",
+				"app/Event/Company/Invitation/Created.php"
+			],
+			[
+				"settinseed",
+				"db/seeds/S11SettingsSeed.php"
+			],
+			[
+				"invicreated",
+				"app/Event/Company/Member/InvitationCreated.php"
+			],
+			[
+				"queuelist",
+				"app/Listener/Manager/QueueServiceTaskListener.php"
+			],
+			[
+				"emailpro",
+				"app/Listener/Handler/EmailProvider.php"
+			],
+			[
+				"emailprov",
+				"app/Listener/Handler/EmailProvider.php"
+			],
+			[
+				"sends",
+				"app/Listener/Handler/Email/SendsInvitation.php"
+			],
+			[
+				"queevent",
+				"app/Listener/Manager/QueueServiceTaskListener.php"
+			],
+			[
+				"08log",
+				"log/api-20161008.log"
+			],
+			[
+				"invitationcreated",
+				"app/Event/Company/Member/InvitationCreated.php"
+			],
+			[
+				"contrmember",
+				"app/Controller/Company/Members.php"
+			],
+			[
+				"controlmember",
+				"test/Unit/Controller/MembersTest.php"
+			],
+			[
+				"8log",
+				"log/api-20161008.log"
+			],
+			[
+				"assertemail",
+				"app/Validator/Traits/AssertEmail.php"
+			],
+			[
+				"validatormember",
+				"app/Validator/Company/Member.php"
+			],
+			[
+				"ivnseed",
+				"db/seeds/S41InvitationsSeed.php"
+			],
+			[
+				"hanldermember",
+				"app/Handler/Company/Member.php"
+			],
+			[
+				"routemembe",
+				"app/Route/Company/Members.php"
+			],
+			[
+				"07log",
+				"log/api-20161007.log"
+			],
+			[
+				"membercreatenewinv",
+				"app/Command/Company/Member/CreateNewInvitation.php"
+			],
+			[
+				"assertname",
+				"app/Validator/Traits/AssertName.php"
+			],
+			[
+				"deletedinv",
+				"app/Event/Company/Member/DeletedInvitation.php"
+			],
+			[
+				"memberdeleted",
+				"app/Event/Company/Member/Deleted.php"
+			],
+			[
+				"memberdeletone",
+				"app/Command/Company/Member/DeleteOne.php"
+			],
+			[
+				"contrmembers",
+				"app/Controller/Company/Members.php"
+			],
+			[
+				"handlermemb",
+				"app/Handler/Company/Member.php"
+			],
+			[
+				"7log",
+				"log/api-20161007.log"
+			],
+			[
+				"entityinvi",
+				"app/Entity/Invitation.php"
+			],
+			[
+				"invinter",
+				"app/Repository/Company/InvitationInterface.php"
+			],
+			[
+				"dbinvitat",
+				"app/Repository/Company/DBInvitation.php"
+			],
+			[
+				"invi",
+				"app/Entity/Invitation.php"
+			],
+			[
+				"invite",
+				"app/Repository/Company/DBInvite.php"
+			],
+			[
+				"membercreated",
+				"app/Event/Company/Member/Created.php"
+			],
+			[
+				"invseed",
+				"db/seeds/S41InvitesSeed.php"
+			],
+			[
+				"credseed",
+				"db/seeds/S11CredentialsSeed.php"
+			],
+			[
+				"handlermembers",
+				"test/Unit/Handler/MemberTest.php"
+			],
+			[
+				"contrfeatures",
+				"app/Controller/Profile/Features.php"
+			],
+			[
+				"membercreanew",
+				"app/Command/Company/Member/CreateNew.php"
+			],
+			[
+				"entitymember",
+				"app/Entity/Company/Member.php"
+			],
+			[
+				"routecredentials",
+				"app/Route/Company/Credentials.php"
+			],
+			[
+				"memberenti",
+				"schema/member/memberEntity.json"
+			],
+			[
+				"routememb",
+				"app/Route/Company/Members.php"
+			],
+			[
+				"contromember",
+				"app/Controller/Company/Members.php"
+			],
+			[
+				"routeprofile",
+				"app/Route/Profiles.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 525.0,
+		"last_filter": "idos",
+		"selected_items":
+		[
+			[
+				"idos",
+				"~/Projects/veridu/idos/api/idos.sublime-project"
+			],
+			[
+				"dash",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"widget",
+				"~/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-project"
+			],
+			[
+				"sdk",
+				"~/Projects/veridu/idos/sdk/idos-sdk-php/veridu-idos-sdk-php.sublime-project"
+			],
+			[
+				"",
+				"~/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-project"
+			],
+			[
+				"sso",
+				"~/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-project"
+			],
+			[
+				"widget handler",
+				"~/Projects/veridu/idos/handlers/idos-widget-handler/veridu-idos-widget-handler.sublime-workspace"
+			],
+			[
+				"isso",
+				"~/Projects/veridu/idos/handlers/idos-sso-handler/veridu-idos-sso.sublime-workspace"
+			],
+			[
+				"handler sso",
+				"~/Projects/veridu/idos/handlers/idos-sso-handler/veridu-idos-sso.sublime-project"
+			],
+			[
+				"email",
+				"~/Projects/veridu/idos/handlers/idos-email-handler/veridu-idos-email-handler.sublime-project"
+			],
+			[
+				"idos email",
+				"~/Projects/veridu/idos/handlers/idos-email-handler/veridu-idos-email-handler.sublime-project"
+			],
+			[
+				"idos sso",
+				"~/Projects/veridu/idos/handlers/idos-sso-handler/veridu-idos-sso.sublime-project"
+			],
+			[
+				"das",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"dsahboar",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"dashboard",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"dashb",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"dashboar",
+				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
+			],
+			[
+				"idosem",
+				"~/Projects/veridu/idos/handlers/idos-email-handler/veridu-idos-email-handler.sublime-project"
+			],
+			[
+				"demo",
+				"~/Projects/veridu/demos-src/new-payments/veridu-demo-payments.sublime-project"
+			]
+		],
+		"width": 908.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 374.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 367.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

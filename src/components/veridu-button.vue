@@ -22,21 +22,6 @@
                 display: block;
             }
         }
-
-
-        &.loaded {
-            &:hover {
-                small {
-                    &.veridu-embedded-widget-button-logout {
-                        display: block;
-                        text-align: center;
-                    }
-                    &.veridu-embedded-widget-button-label {
-                        display: none;
-                    }
-                }
-            }
-        }
     }
 
     @keyframes VeriduEmbbeddedWidgetProvidersFadeIn {
@@ -191,7 +176,7 @@ export default {
                 return this.$root.logout(this.provider.key);
             } else {
                 let uri,
-                    publicKey = '4c9184f37cff01bcdc32dc486ec36961',
+                    publicKey = cfg.credential.public,
                     base_url = `https://widget.idos.io/1.0/`;
                 
                 if (this.$root.authenticated) {
