@@ -523,7 +523,25 @@
 			"file": "src/components/veridu-button.vue",
 			"settings":
 			{
-				"buffer_size": 6961,
+				"buffer_size": 6550,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/widget.vue",
+			"settings":
+			{
+				"buffer_size": 8759,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/config.js",
+			"settings":
+			{
+				"buffer_size": 1383,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -1079,11 +1097,11 @@
 	],
 	"file_history":
 	[
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/local-publish.sh",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/config.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/index.html",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/.gitignore",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/veridu.js",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/local-publish.sh",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/main.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget-header.vue",
@@ -1210,7 +1228,7 @@
 	],
 	"find":
 	{
-		"height": 81.0
+		"height": 79.0
 	},
 	"find_in_files":
 	{
@@ -1284,6 +1302,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"hover",
+			":hover",
+			"http",
+			"8000",
+			"8001",
 			"logout",
 			"VeriduEmbeddedWidget",
 			"IDOS_EMBEDDED_WIDGET_CONFIG",
@@ -1406,12 +1429,7 @@
 			"id",
 			"credential",
 			"credential_id",
-			"subscribed",
-			"credential",
-			"Hook",
-			"AssertId",
-			"url",
-			"assertName"
+			"subscribed"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1482,20 +1500,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6961,
+						"buffer_size": 6550,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4384,
-								4384
+								6550,
+								6550
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -1504,10 +1523,80 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6157.0,
+						"translation.y": 547.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/widget.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5471,
+								5471
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 563.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1566,6 +1655,18 @@
 		"selected_items":
 		[
 			[
+				"local",
+				"local-publish.sh"
+			],
+			[
+				"confi",
+				"src/config.js"
+			],
+			[
+				"widget",
+				"src/components/widget.vue"
+			],
+			[
 				"veribu",
 				"src/components/veridu-button.vue"
 			],
@@ -1584,14 +1685,6 @@
 			[
 				"mainjs",
 				"src/main.js"
-			],
-			[
-				"local",
-				"local-publish.sh"
-			],
-			[
-				"widget",
-				"src/components/widget.vue"
 			],
 			[
 				"providers",
@@ -2072,10 +2165,6 @@
 			[
 				"routeprofile",
 				"app/Route/Profiles.php"
-			],
-			[
-				"controllgates",
-				"app/Controller/Profile/Gates.php"
 			]
 		],
 		"width": 0.0
