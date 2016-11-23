@@ -11,7 +11,6 @@
         animation-timing-function: linear;
         margin-bottom: 0.43em;
 
-
         small {
             text-transform: capitalize;
             &.veridu-embedded-widget-button-logout {
@@ -132,7 +131,7 @@
                 backgroundImage: picture ? picture : ($root.cfg.preferences.buttonColor ? 'none':  ''),
                 backgroundColor: $root.cfg.preferences.buttonColor || ''
             }"
-            :disabled="! enabled"
+            :disabled="isDisabled"
             :title="title"
         >
             <v-svg :class="{ 'v-hidden' : picture}" :src="baseImgUrl + '/' + provider.key + '.svg'"></v-svg>
@@ -158,7 +157,8 @@ export default {
     data() {
         return {
             pictureUrl: '',
-            baseImgUrl: cfg.imgAssetsBaseUrl
+            baseImgUrl: cfg.imgAssetsBaseUrl,
+            isDisabled: false
         }
     },
     props: ['provider', 'type', 'loading', 'loaded', 'enabled', 'dummy'],
@@ -175,18 +175,39 @@ export default {
             if (this.loaded) {
                 return this.$root.logout(this.provider.key);
             } else {
-                let uri,
-                    publicKey = cfg.credential.public,
-                    base_url = `https://widget.idos.io/1.0/`;
-                
-                if (this.$root.authenticated) {
-                    uri  = `oauth/${this.provider.key}/${publicKey}?userToken=${this.$root.tokens.user_token}`;
-                } else {
-                    uri  = `sso/${this.provider.key}/${publicKey}`;
+                // shows the oauth step
+                switch(this.provider.key) {
+                    case 'email':
+                        return this.showEmail();
+                    break;
+                    default:
+                        return this.showSocial();
+                    break;
                 }
-                let url = base_url + uri;
-                
-                Util.showWindow(url);
+            }
+        },
+        showEmail() {
+            this.$root.showEmail();
+        },
+        showSocial() {
+            let uri,
+                publicKey = cfg.credential.public,
+                companySlug = cfg.companySlug,
+                base_url = `http://widget.idos.io:8001/index.php/1.0/`;
+            
+            if (this.$root.authenticated) {
+                uri  = `oauth/${this.provider.key}/${companySlug}/${publicKey}?userToken=${this.$root.tokens.user_token}`;
+            } else {
+                uri  = `sso/${this.provider.key}/${companySlug}/${publicKey}`;
+            }
+            let url = base_url + uri;
+            Util.showWindow(url);
+        },
+        disabled() {
+            if (this.provider.key !== 'email') {
+                this.isDisabled =  ! this.enabled;
+            } else {
+                this.isDisabled =  this.enabled ? ! this.$root.userToken : true;
             }
         }
     },
@@ -199,8 +220,10 @@ export default {
                 return `${this.provider.label} - `+ this.translate('general.loading.dots');
             }
             if (this.loaded) {
-                return `${this.provider.label} - `+ this.translate('general.logout') +``;
+                return `${this.provider.label}`;
+                // `+ this.translate('general.logout') +`
             }
+
             return this.provider.label;
         },
         label() {
@@ -208,6 +231,9 @@ export default {
         }
     },
     ready() {
+        this.$on('user-token', () => {
+            this.disabled();
+        });
         this.$on('provider.added', provider => {
             if (provider == this.provider.key) {
                 this.authenticated = true;

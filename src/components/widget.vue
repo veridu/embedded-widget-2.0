@@ -60,6 +60,9 @@
                 v-show="state === 'finish'"
                 :state="state"
             ></finish>
+            <email-verification 
+                :show-email-form.sync="showEmailForm"
+            ></email-verification>
         </div>
         <widget-footer
             :state="state"
@@ -74,6 +77,7 @@ import cfg from '../config';
 import Vue from 'vue';
 
 // components
+import EmailVerification from './email-verification.vue';
 import ProvidersComponent from './providers.vue';
 import SecondaryProvidersComponent from './secondary-providers.vue';
 import WidgetHeaderComponent from './widget-header.vue';
@@ -90,6 +94,8 @@ export default {
         return {
             // states: ['initial', 'auth', 'secondary-providers', 'finish']
             state: 'initial',
+            addedSources: [],
+            showEmailForm: false,
             tokens: {},
             loading: false,
             ga: undefined,
@@ -129,17 +135,17 @@ export default {
             this.DOM[selector] = document.querySelector(selector);
             return this.DOM[selector];
         },
-
         dispatchEvent(type, data) {
             let evt = new CustomEvent('Veridu.EmbeddedWidget');
             evt.payload = { type, data };
             window.dispatchEvent(evt);
         },
-
+        showEmail() {
+            this.showEmailForm = true;
+        },
         logout(provider) {
             
         },
-
         initAnalytics() {
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -150,7 +156,6 @@ export default {
             window.VeriduEmbeddedWidgetAnalytics('send', 'pageview');
             this.ga = window.VeriduEmbeddedWidgetAnalytics;
         },
-
         goal(key) {
             if ((! this.goals[key]) && this.ga) {
                 this.goals[key] = true;
@@ -165,6 +170,15 @@ export default {
             this.$broadcast('verified', data);
             this.dispatchEvent('verification-success', data);
             this.goal('user-verified');
+        },
+        providerAdded(key) {
+            this.$root.$broadcast('provider.added', key);
+            this.$root.$broadcast('idle', key);
+            this.addedSources.push(key);
+            this.$setItem('addedSources', this.addedSources);
+        },
+        reset() {
+            return this.$removeItem('addedSources') && this.$removeItem('userToken');
         },
         poll() {
             this.$http.get(`https://api.idos.io/1.0/profiles/_self`, {}, {
@@ -202,6 +216,7 @@ export default {
         'secondary-providers': SecondaryProvidersComponent,
         'widget-header': WidgetHeaderComponent,
         'widget-footer': WidgetFooterComponent,
+        'email-verification': EmailVerification,
         'introduction': IntroComponent,
         'finish': FinishComponent
     },
@@ -229,6 +244,24 @@ export default {
     created(){
         this.initAnalytics();
 
+        // initialize token from storage
+        let $addedSources = this.$getItem('addedSources'),
+            $userToken = this.$getItem('userToken');
+
+        $userToken.then(token => {
+            this.userToken = token;
+            this.$broadcast('user-token');
+        });
+        $addedSources.then(sources => {
+            if (sources && sources.length) {
+                sources.map(source => {
+                    this.$broadcast('provider.added', source);
+                    this.$broadcast('idle', source);
+                });
+                this.addedSources = sources;
+            }
+        });
+
         // preferences
         if (+cfg.preferences.introDuration === 0) {
             this.state = 'auth';
@@ -247,10 +280,14 @@ export default {
                 let data = evt.data;
                 if (data.message === 'idos:source.added') {
                     this.$broadcast('provider.added', data.source);
+                    this.addedSources.push(data.source);
+                    this.$setItem('addedSources', this.addedSources);
 
                     if (! this.authenticated) {
                         this.authenticated = true;
-                        this.tokens.user_token = data.tokens.user_token;
+                        this.userToken = data.tokens.user_token;
+                        this.$setItem('userToken', this.userToken);
+                        this.$broadcast('user-token');
                     }
                 }
                 this.poll();

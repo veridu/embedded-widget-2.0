@@ -24,11 +24,39 @@ export default {
     provider: {
         loading: '{0} is being loaded...'
     },
+    button: {
+        email: {
+            disabled: {
+                'no-token': 'You need to add a Social Provider before adding the Email verification'
+            }
+        }
+    },
+    source: {
+        email: {
+            form: {
+                email: {
+                    placeholder: 'Email',
+                },
+                "verification-code": {
+                    placeholder: 'Verification Code'
+                }
+            },
+            title: {
+                default: 'Email Verification',
+                verified: 'Code verified successfully'
+            },
+            action: {
+                send: 'SEND CODE',
+                verify: 'VERIFY CODE'
+            }
+        }
+    },
     general: {
         introduction: 'Further identification needed to complete your transaction', // introduction text
         continue: 'continue', // continue to next step (from introduction)
         more: 'More', // more providers
         logout: 'logout',
+        cancel: 'CANCEL',
         loading: {
             default: 'loading',
             dots: 'loading...'

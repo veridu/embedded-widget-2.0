@@ -6,6 +6,8 @@
         font-size: em(13);
         font-weight: 500;
         margin-bottom: em(9);
+        letter-spacing: initial;
+        line-height: 1.4;
     }
     a {
         font-size: em(13);

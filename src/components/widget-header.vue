@@ -8,6 +8,7 @@
             margin-bottom: em(15,17);
             font-weight: bold;
             text-align: left !important;
+            letter-spacing: initial;
 
             img {
                 width: 1.4em;
