@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"added",
+				"addedSources"
+			],
+			[
+				"adds",
+				"addedSources"
+			],
+			[
+				"show",
+				"showEmailForm"
+			],
+			[
+				"veri",
+				"verificationSent"
+			],
+			[
+				"mgb",
+				"margin-bottom: 〔property〕"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
 				"fun",
 				"fun\tFunction"
 			],
@@ -490,49 +514,25 @@
 			[
 				"parent",
 				"parentId"
-			],
-			[
-				"asauth",
-				"assertAuthUsername〔function〕"
-			],
-			[
-				"or",
-				"orWhere〔function〕"
-			],
-			[
-				"param",
-				"parameters"
-			],
-			[
-				"Ab",
-				"AbstractUnit〔namespace〕"
-			],
-			[
-				"para",
-				"$parameter〔variable〕"
-			],
-			[
-				"parame",
-				"parameter"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/components/veridu-button.vue",
+			"file": "src/components/widget.vue",
 			"settings":
 			{
-				"buffer_size": 6550,
+				"buffer_size": 10339,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/components/widget.vue",
+			"file": "src/components/veridu-button.vue",
 			"settings":
 			{
-				"buffer_size": 8759,
+				"buffer_size": 7365,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -541,7 +541,7 @@
 			"file": "src/config.js",
 			"settings":
 			{
-				"buffer_size": 1383,
+				"buffer_size": 2125,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -554,13 +554,25 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 371.0,
+		"height": 354.0,
 		"last_filter": "comm",
 		"selected_items":
 		[
 			[
 				"comm",
 				"Toggle Comment"
+			],
+			[
+				"cmm",
+				"DoxyDoxygen: Comment All"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"tot",
+				"View: Toggle Tabs"
 			],
 			[
 				"boxy",
@@ -573,10 +585,6 @@
 			[
 				"finduse",
 				"PHPCompanion:Find Use"
-			],
-			[
-				"tot",
-				"View: Toggle Tabs"
 			],
 			[
 				"sdbrv",
@@ -705,10 +713,6 @@
 			[
 				"full",
 				"PHPCompanion:Expand Fully Qualified Class Name"
-			],
-			[
-				"disab",
-				"Package Control: Disable Package"
 			],
 			[
 				"fidn",
@@ -1065,13 +1069,9 @@
 			[
 				"togtab",
 				"View: Toggle Tabs"
-			],
-			[
-				"dup",
-				"File: Duplicate"
 			]
 		],
-		"width": 679.0
+		"width": 611.0
 	},
 	"console":
 	{
@@ -1093,19 +1093,25 @@
 	},
 	"expanded_folders":
 	[
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0"
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/i18n"
 	],
 	"file_history":
 	[
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/local-publish.sh",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/config.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/index.html",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/.gitignore",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/veridu.js",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/main.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/config.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget-header.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/i18n/en.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/email-verification.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/introduction.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/veridu-button.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/main.js",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/local-publish.sh",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/.gitignore",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/veridu.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/providers.vue",
 		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget/component.js",
 		"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/src/components/widget.vue",
@@ -1221,20 +1227,23 @@
 		"/home/rafael/Projects/veridu/idos/api/log/api-20161006.log",
 		"/home/rafael/Projects/veridu/idos/api/db/seeds/S41InvitesSeed.php",
 		"/home/rafael/Projects/veridu/idos/api/app/Command/Company/Member/CreateNewInvite.php",
-		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Sources.php",
-		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Features.php",
-		"/home/rafael/Projects/veridu/idos/api/app/Entity/Company/Member.php",
-		"/home/rafael/Projects/veridu/idos/api/app/Route/Company/Credentials.php"
+		"/home/rafael/Projects/veridu/idos/api/app/Controller/Profile/Sources.php"
 	],
 	"find":
 	{
-		"height": 79.0
+		"height": 78.0
 	},
 	"find_in_files":
 	{
 		"height": 180.0,
 		"where_history":
 		[
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/",
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
+			"",
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/app/src",
+			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/node_modules",
 			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
 			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/",
 			"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src",
@@ -1302,134 +1311,134 @@
 		"case_sensitive": true,
 		"find_history":
 		[
-			"hover",
-			":hover",
-			"http",
-			"8000",
-			"8001",
-			"logout",
-			"VeriduEmbeddedWidget",
-			"IDOS_EMBEDDED_WIDGET_CONFIG",
-			"http",
-			":8082",
-			"https",
-			"#veridu",
-			"veridu",
-			"VERIDU",
-			"com",
-			"veridu",
-			"veridu.com",
-			"VeriduEmbeddedWidget",
-			"arc",
-			"api",
-			"veridu-embedded_widget",
-			"veridu",
-			"el",
-			"preferences",
-			"VERIDU_CONFIG_embedded_widget",
-			"veridu.com",
-			"assets.veridu.com",
-			"assets",
-			"api",
-			"/home/rafael/Projects/veridu/idos/olc/widgets/embedded-widget/",
-			"inish(",
-			"loadginpr",
-			"loadingProviders",
-			"loadedProviders",
-			"loaded",
-			"100",
-			"pass",
-			"authenticated",
-			"user",
-			"data.",
-			"lightFacts",
-			"user",
-			"function",
-			"&& ",
-			"GATE",
-			"name",
-			"facts",
-			"UserToken",
-			"https",
-			".poll",
-			"progress",
-			"cfg",
-			"Veridu",
-			"logout",
-			"authenticated",
-			"provider",
-			"this",
-			"provider.added",
-			"dispatch",
-			"facts",
-			"bau",
-			"sso",
-			"4c9184f37cff01bcdc32dc486ec36961",
-			"url",
-			"var",
-			"endpoint",
-			"str",
-			"provider",
-			"ssothis",
-			"authenticated",
-			"com",
-			"veridu",
-			"auth",
-			"Psr\\",
-			"Psr",
-			"widget",
-			"App",
-			"Widget",
-			"widget",
-			"widgetId",
-			"id",
-			"hash",
-			"widgetId",
-			"widgetHash",
-			"delete",
-			"creator",
-			"identity",
-			"hash",
-			"$hash",
-			"credentialPubKey",
-			"widget",
-			"to",
-			"Hook",
-			"Credential",
-			"companyId",
-			"public",
-			"credn",
-			"type",
-			"getParsedBodyP",
-			"getPra",
-			"config",
-			"type",
-			"hash",
-			"label",
-			"trigger",
-			"label",
-			"widgetId",
-			"label",
-			"CreateNew",
-			" .",
-			"random_",
-			"Id",
-			"false",
-			"null",
-			"text",
-			"type",
-			"config",
-			"hook",
-			"Hook",
-			"label",
-			"Hook",
-			"name",
-			"cre",
-			"config",
-			"id",
+			"publicKey",
 			"credential",
-			"credential_id",
-			"subscribed"
+			"publicKey",
+			"credential",
+			"remove",
+			"setItem",
+			"removeIte",
+			"fr",
+			"normalized",
+			"substring",
+			"This",
+			"false",
+			"letter-spacing",
+			"3px",
+			"email",
+			"disabled",
+			"data",
+			".push",
+			"email",
+			"emit",
+			"provider.added",
+			"false",
+			"disabled",
+			"logout",
+			"verify",
+			"data",
+			"tokens",
+			"return",
+			"provider",
+			"user",
+			"then(",
+			"enabled",
+			"Boolean",
+			"this",
+			"disabled",
+			"name",
+			"disabled",
+			"65px",
+			"margin: 3%",
+			"color",
+			"white",
+			"linear",
+			"keyframes",
+			"exi",
+			"sendEmail",
+			"action",
+			"email",
+			"Verification",
+			"Email",
+			"source",
+			"v-model",
+			"general",
+			"send",
+			"Cancel",
+			"action",
+			"false",
+			"show",
+			"auth",
+			"true",
+			"eaeaea",
+			"eee",
+			"box",
+			"transparent",
+			"white",
+			"gray",
+			"send",
+			"default",
+			"title",
+			"this",
+			"title",
+			"send",
+			"lightgray",
+			"1s",
+			"black",
+			"lightgray",
+			"1px",
+			"white",
+			"true",
+			"state=",
+			"state",
+			"verificationSent",
+			"added",
+			"nish",
+			"ng",
+			"true",
+			"email",
+			"verifei",
+			"this",
+			"title",
+			"emailOtp",
+			"verified",
+			"translat",
+			"sync",
+			"sync.",
+			"code",
+			"added",
+			"conson",
+			"true",
+			"sentVeri",
+			"show",
+			"verifi",
+			"verificatio",
+			"resend",
+			"submit",
+			"email",
+			"loading",
+			"broadcast",
+			"data",
+			"tokens",
+			"userToken",
+			"addedS",
+			"key",
+			"callback",
+			"mixin",
+			"addSource",
+			"userToken",
+			"tokens",
+			"user_to",
+			"data",
+			"callback",
+			"key",
+			"user_token",
+			"false",
+			"showEmailForm",
+			"showVerificationForm",
+			"showEmail",
+			"submitVerification",
+			"verificationSent"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1491,65 +1500,29 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/veridu-button.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6550,
-								6550
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 547.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "src/components/widget.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8759,
+						"buffer_size": 10339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5471,
-								5471
+								8974,
+								8974
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -1558,10 +1531,44 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 563.0,
+						"translation.y": 9845.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/veridu-button.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5647,
+								5647
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7868.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1570,21 +1577,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1383,
+						"buffer_size": 2125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								320,
-								320
+								721,
+								721
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
@@ -1596,7 +1602,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1604,7 +1610,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 48.0
+		"height": 40.0
 	},
 	"input":
 	{
@@ -1645,7 +1651,7 @@
 	"project": "veridu-idos-embedded-widget-2.sublime-project",
 	"replace":
 	{
-		"height": 92.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1655,36 +1661,112 @@
 		"selected_items":
 		[
 			[
-				"local",
-				"local-publish.sh"
-			],
-			[
 				"confi",
 				"src/config.js"
 			],
 			[
-				"widget",
-				"src/components/widget.vue"
+				"butto",
+				"src/components/veridu-button.vue"
 			],
 			[
-				"veribu",
-				"src/components/veridu-button.vue"
+				"wide",
+				"src/components/widget.vue"
 			],
 			[
 				"index",
 				"src/index.html"
 			],
 			[
-				"config",
+				"wid",
+				"src/components/widget.vue"
+			],
+			[
+				"onfig",
 				"src/config.js"
 			],
 			[
-				"publ",
-				"local-publish.sh"
+				"widgheade",
+				"src/components/widget-header.vue"
+			],
+			[
+				"srcindex",
+				"src/index.html"
+			],
+			[
+				"intro",
+				"src/components/introduction.vue"
+			],
+			[
+				"enjs",
+				"src/i18n/en.js"
+			],
+			[
+				"enj",
+				"src/i18n/en.js"
+			],
+			[
+				"veribu",
+				"src/components/veridu-button.vue"
+			],
+			[
+				"src",
+				"src/index.html"
+			],
+			[
+				"widge",
+				"src/components/widget.vue"
+			],
+			[
+				"en",
+				"src/i18n/en.js"
+			],
+			[
+				"header",
+				"src/components/widget-header.vue"
+			],
+			[
+				"widg",
+				"src/components/widget.vue"
 			],
 			[
 				"mainjs",
 				"src/main.js"
+			],
+			[
+				"config",
+				"src/config.js"
+			],
+			[
+				"coni",
+				"src/config.js"
+			],
+			[
+				"widv",
+				"src/components/widget.vue"
+			],
+			[
+				"provi",
+				"src/components/providers.vue"
+			],
+			[
+				"srcinde",
+				"src/index.html"
+			],
+			[
+				"veridub",
+				"src/components/veridu-button.vue"
+			],
+			[
+				"local",
+				"local-publish.sh"
+			],
+			[
+				"widget",
+				"src/components/widget.vue"
+			],
+			[
+				"publ",
+				"local-publish.sh"
 			],
 			[
 				"providers",
@@ -1696,10 +1778,6 @@
 			],
 			[
 				"",
-				"src/components/widget-header.vue"
-			],
-			[
-				"header",
 				"src/components/widget-header.vue"
 			],
 			[
@@ -2093,78 +2171,6 @@
 			[
 				"handlermemb",
 				"app/Handler/Company/Member.php"
-			],
-			[
-				"7log",
-				"log/api-20161007.log"
-			],
-			[
-				"entityinvi",
-				"app/Entity/Invitation.php"
-			],
-			[
-				"invinter",
-				"app/Repository/Company/InvitationInterface.php"
-			],
-			[
-				"dbinvitat",
-				"app/Repository/Company/DBInvitation.php"
-			],
-			[
-				"invi",
-				"app/Entity/Invitation.php"
-			],
-			[
-				"invite",
-				"app/Repository/Company/DBInvite.php"
-			],
-			[
-				"membercreated",
-				"app/Event/Company/Member/Created.php"
-			],
-			[
-				"invseed",
-				"db/seeds/S41InvitesSeed.php"
-			],
-			[
-				"credseed",
-				"db/seeds/S11CredentialsSeed.php"
-			],
-			[
-				"handlermembers",
-				"test/Unit/Handler/MemberTest.php"
-			],
-			[
-				"contrfeatures",
-				"app/Controller/Profile/Features.php"
-			],
-			[
-				"membercreanew",
-				"app/Command/Company/Member/CreateNew.php"
-			],
-			[
-				"entitymember",
-				"app/Entity/Company/Member.php"
-			],
-			[
-				"routecredentials",
-				"app/Route/Company/Credentials.php"
-			],
-			[
-				"memberenti",
-				"schema/member/memberEntity.json"
-			],
-			[
-				"routememb",
-				"app/Route/Company/Members.php"
-			],
-			[
-				"contromember",
-				"app/Controller/Company/Members.php"
-			],
-			[
-				"routeprofile",
-				"app/Route/Profiles.php"
 			]
 		],
 		"width": 0.0
@@ -2172,13 +2178,9 @@
 	"select_project":
 	{
 		"height": 525.0,
-		"last_filter": "idos",
+		"last_filter": "dash",
 		"selected_items":
 		[
-			[
-				"idos",
-				"~/Projects/veridu/idos/api/idos.sublime-project"
-			],
 			[
 				"dash",
 				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
@@ -2186,6 +2188,10 @@
 			[
 				"widget",
 				"~/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-project"
+			],
+			[
+				"idos",
+				"~/Projects/veridu/idos/api/idos.sublime-project"
 			],
 			[
 				"sdk",

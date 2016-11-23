@@ -2,6 +2,7 @@ import Vue from 'vue';
 import cfg from './config';
 import Widget from  './components/widget.vue';
 import vueResource from 'vue-resource';
+import VueLocalForage from 'vue-localforage'
 import vuei18n from 'vue-i18n';
 
 // locales
@@ -21,7 +22,9 @@ import translate from './mixins/translate';
 // Register Vue's dependencies
 Vue.use(vueResource);
 Vue.use(vuei18n);
+Vue.use(VueLocalForage);
 Vue.mixin(translate);
+
 
 // default && fallback if not found on "translations" object
 Vue.config.lang = cfg.preferences.lang;
