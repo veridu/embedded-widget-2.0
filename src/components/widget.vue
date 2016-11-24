@@ -183,7 +183,7 @@ export default {
         poll() {
             this.$http.get(`https://api.idos.io/1.0/profiles/_self`, {}, {
                 headers : {
-                    'Authorization': `UserToken ${this.tokens.user_token}`
+                    'Authorization': `UserToken ${this.userToken}`
                 }
             })
                 .then(

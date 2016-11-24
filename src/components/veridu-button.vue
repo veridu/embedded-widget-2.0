@@ -193,10 +193,10 @@ export default {
             let uri,
                 publicKey = cfg.credential.public,
                 companySlug = cfg.companySlug,
-                base_url = `http://widget.idos.io:8001/index.php/1.0/`;
+                base_url = cfg.URL.WIDGET;
             
             if (this.$root.authenticated) {
-                uri  = `oauth/${this.provider.key}/${companySlug}/${publicKey}?userToken=${this.$root.tokens.user_token}`;
+                uri  = `oauth/${this.provider.key}/${companySlug}/${publicKey}?userToken=${this.$root.userToken}`;
             } else {
                 uri  = `sso/${this.provider.key}/${companySlug}/${publicKey}`;
             }
