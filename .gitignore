@@ -2,4 +2,3 @@ node_modules/
 build/
 bin/
 vendor/
-*.sublime-workspace
