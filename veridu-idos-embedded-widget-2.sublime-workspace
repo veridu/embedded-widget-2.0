@@ -520,28 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/components/widget.vue",
+			"file": "src/index.html",
 			"settings":
 			{
-				"buffer_size": 10339,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/components/veridu-button.vue",
-			"settings":
-			{
-				"buffer_size": 7365,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/config.js",
-			"settings":
-			{
-				"buffer_size": 2125,
+				"buffer_size": 2287,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -1100,14 +1082,14 @@
 	],
 	"file_history":
 	[
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/index.html",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/config.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/veridu-button.vue",
+		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/index.html",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/widget-header.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/i18n/en.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/email-verification.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/introduction.vue",
-		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/components/veridu-button.vue",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/src/main.js",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/local-publish.sh",
 		"/home/rafael/Projects/veridu/idos/widgets/embedded-widget-2.0/.gitignore",
@@ -1231,7 +1213,7 @@
 	],
 	"find":
 	{
-		"height": 78.0
+		"height": 81.0
 	},
 	"find_in_files":
 	{
@@ -1311,6 +1293,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"credentialSlug",
+			"Verid",
 			"publicKey",
 			"credential",
 			"publicKey",
@@ -1436,9 +1420,7 @@
 			"false",
 			"showEmailForm",
 			"showVerificationForm",
-			"showEmail",
-			"submitVerification",
-			"verificationSent"
+			"showEmail"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1500,109 +1482,40 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/components/widget.vue",
+					"file": "src/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10339,
+						"buffer_size": 2287,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8974,
-								8974
+								751,
+								751
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9845.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/components/veridu-button.vue",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7365,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5647,
-								5647
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Vue Syntax Highlight/vue.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7868.0,
+						"translation.y": 873.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								721,
-								721
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1661,6 +1574,14 @@
 		"selected_items":
 		[
 			[
+				"confg",
+				"src/config.js"
+			],
+			[
+				"srcindex",
+				"src/index.html"
+			],
+			[
 				"confi",
 				"src/config.js"
 			],
@@ -1687,10 +1608,6 @@
 			[
 				"widgheade",
 				"src/components/widget-header.vue"
-			],
-			[
-				"srcindex",
-				"src/index.html"
 			],
 			[
 				"intro",
@@ -2167,10 +2084,6 @@
 			[
 				"contrmembers",
 				"app/Controller/Company/Members.php"
-			],
-			[
-				"handlermemb",
-				"app/Handler/Company/Member.php"
 			]
 		],
 		"width": 0.0
@@ -2178,9 +2091,13 @@
 	"select_project":
 	{
 		"height": 525.0,
-		"last_filter": "dash",
+		"last_filter": "wid",
 		"selected_items":
 		[
+			[
+				"wid",
+				"~/Projects/veridu/idos/handlers/idos-widget/veridu-idos-widget-handler.sublime-project"
+			],
 			[
 				"dash",
 				"~/Projects/veridu/idos/dashboard/app/dashboard.sublime-project"
