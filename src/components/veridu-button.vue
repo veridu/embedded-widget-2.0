@@ -53,12 +53,12 @@
                 opacity: 0.3;
             }
         }
-        // &:active:not(.has-image):not(.loaded):not(.loading),
-        // &:focus:not(.has-image):not(.loaded):not(.loading){
-        //     &:after {
-        //         opacity: 0.5;
-        //     }
-        // }
+        &:active:not(.has-image):not(.loaded):not(.loading),
+        &:focus:not(.has-image):not(.loaded):not(.loading){
+            &:after {
+                opacity: 0.5;
+            }
+        }
 
         &.has-image {
             background-size: 100% auto;
@@ -200,6 +200,9 @@ export default {
             } else {
                 uri  = `sso/${this.provider.key}/${companySlug}/${publicKey}`;
             }
+
+            console.warn(uri);
+            
             let url = base_url + uri;
             Util.showWindow(url);
         },
@@ -213,7 +216,7 @@ export default {
     },
     computed: {
         picture() {
-            return this.loaded && this.pictureUrl;
+            return this.loaded && this.$root.sources[this.provider.key].tags.profile_picture;
         },
         title() {
             if (this.loading) {

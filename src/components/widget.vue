@@ -86,7 +86,7 @@ import IntroComponent from './introduction.vue';
 import FinishComponent from './finish.vue';
 
 var GATES = {
-    CHARGEBACK: 'chargeback'
+    NOCHARGEBACK: 'no-chargeback'
 };
 
 export default {
@@ -95,6 +95,7 @@ export default {
             // states: ['initial', 'auth', 'secondary-providers', 'finish']
             state: 'initial',
             addedSources: [],
+            sources: {},
             showEmailForm: false,
             tokens: {},
             loading: false,
@@ -181,29 +182,39 @@ export default {
             return this.$removeItem('addedSources') && this.$removeItem('userToken');
         },
         poll() {
-            this.$http.get(`https://api.idos.io/1.0/profiles/_self`, {}, {
+            this.polling = true;
+
+            this.$http.get(`${cfg.URL.API}profiles/_self`, {}, {
                 headers : {
                     'Authorization': `UserToken ${this.userToken}`
                 }
             })
                 .then(
                     resp => {
-                        let data = resp.data.data;
-                        let lightFacts = {};
-                        var pass = 0;
-                        var gates = data.gates;
+                        let data = resp.data.data,
+                            lightFacts = {},
+                            pass = 0,
+                            gates = data.gates,
+                            sources = data.sources;
 
                         this.dispatchEvent('poll', data);
                         this.rawData = data.attributes;
 
-                        gates.map((gate) => {
+                        gates.map(gate => {
                             if (gate.pass) {
                                 pass++;
-                                if (gate.slug === GATES.CHARGEBACK) {
+                                if (gate.slug === `${GATES.NOCHARGEBACK}-${this.confidenceLevel}`) {
                                     return this.finish(data);
                                 }
                             }
                         });
+
+                        this.sources = {};
+                        
+                        sources = sources.map(source => {
+                            this.sources[source.name] = source;
+                        });
+
 
                         this.percentage = this.verified ? 1 : (pass / gates.length);
                         setTimeout(this.poll, 2000);
@@ -243,6 +254,7 @@ export default {
 
     created(){
         this.initAnalytics();
+        this.confidenceLevel = 'medium';
 
         // initialize token from storage
         let $addedSources = this.$getItem('addedSources'),
@@ -252,6 +264,7 @@ export default {
             this.userToken = token;
             this.$broadcast('user-token');
         });
+
         $addedSources.then(sources => {
             if (sources && sources.length) {
                 sources.map(source => {
@@ -290,7 +303,10 @@ export default {
                         this.$broadcast('user-token');
                     }
                 }
-                this.poll();
+    
+                if (! this.polling) {
+                    this.poll();
+                }
 
                 this.loading = true;
                 setTimeout(() => {
