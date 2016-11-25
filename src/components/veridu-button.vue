@@ -62,6 +62,7 @@
 
         &.has-image {
             background-size: 100% auto;
+            background-color: transparent !important;
         }
 
         &:disabled {
@@ -128,7 +129,7 @@
             class="veridu-embedded-widget-button"
             :class="{'loading': loading, 'loaded': loaded, 'has-image': picture}"
             :style="{
-                backgroundImage: picture ? picture : ($root.cfg.preferences.buttonColor ? 'none':  ''),
+                backgroundImage: backgroundImage,
                 backgroundColor: $root.cfg.preferences.buttonColor || ''
             }"
             :disabled="isDisabled"
@@ -156,7 +157,6 @@ import vSvgComponent from './v-svg.vue';
 export default {
     data() {
         return {
-            pictureUrl: '',
             baseImgUrl: cfg.imgAssetsBaseUrl,
             isDisabled: false
         }
@@ -201,8 +201,6 @@ export default {
                 uri  = `sso/${this.provider.key}/${companySlug}/${publicKey}`;
             }
 
-            console.warn(uri);
-            
             let url = base_url + uri;
             Util.showWindow(url);
         },
@@ -216,7 +214,13 @@ export default {
     },
     computed: {
         picture() {
-            return this.loaded && this.$root.sources[this.provider.key].tags.profile_picture;
+            if (this.loaded && this.$root.sources[this.provider.key]) {
+                return this.$root.sources[this.provider.key].tags.profile_picture;
+            }
+            return '';
+        },
+        backgroundImage() {
+            return `url('${this.picture}')` || this.$root.cfg.preferences.buttonColor || '';
         },
         title() {
             if (this.loading) {

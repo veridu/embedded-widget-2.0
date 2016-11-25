@@ -182,9 +182,9 @@ export default {
             return this.$removeItem('addedSources') && this.$removeItem('userToken');
         },
         poll() {
+            let url = `${cfg.URL.API}profiles/_self`;
             this.polling = true;
-
-            this.$http.get(`${cfg.URL.API}profiles/_self`, {}, {
+            this.$http.get(url, {}, {
                 headers : {
                     'Authorization': `UserToken ${this.userToken}`
                 }
@@ -261,8 +261,14 @@ export default {
             $userToken = this.$getItem('userToken');
 
         $userToken.then(token => {
+            if (! token) return;
+
             this.userToken = token;
             this.$broadcast('user-token');
+            this.authenticated = true;
+            if (! this.polling) {
+                this.poll();
+            }
         });
 
         $addedSources.then(sources => {
@@ -271,6 +277,7 @@ export default {
                     this.$broadcast('provider.added', source);
                     this.$broadcast('idle', source);
                 });
+
                 this.addedSources = sources;
             }
         });
