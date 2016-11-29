@@ -263,30 +263,30 @@ export default {
         this.confidenceLevel = 'medium';
 
         // initialize token from storage
-        let $addedSources = this.$getItem('addedSources'),
-            $userToken = this.$getItem('userToken');
+        // let $addedSources = this.$getItem('addedSources'),
+        //     $userToken = this.$getItem('userToken');
 
-        $userToken.then(token => {
-            if (! token) return;
+        // $userToken.then(token => {
+        //     if (! token) return;
 
-            this.userToken = token;
-            this.$broadcast('user-token');
-            this.authenticated = true;
-            if (! this.polling) {
-                this.poll();
-            }
-        });
+        //     this.userToken = token;
+        //     this.$broadcast('user-token');
+        //     this.authenticated = true;
+        //     if (! this.polling) {
+        //         this.poll();
+        //     }
+        // });
 
-        $addedSources.then(sources => {
-            if (sources && sources.length) {
-                sources.map(source => {
-                    this.$broadcast('provider.added', source);
-                    this.$broadcast('idle', source);
-                });
+        // $addedSources.then(sources => {
+        //     if (sources && sources.length) {
+        //         sources.map(source => {
+        //             this.$broadcast('provider.added', source);
+        //             this.$broadcast('idle', source);
+        //         });
 
-                this.addedSources = sources;
-            }
-        });
+        //         this.addedSources = sources;
+        //     }
+        // });
 
         // preferences
         if (+cfg.preferences.introDuration === 0) {
