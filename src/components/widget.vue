@@ -182,14 +182,13 @@ export default {
             return this.$removeItem('addedSources') && this.$removeItem('userToken');
         },
         poll() {
-            let url = `${cfg.URL.API}profiles/_self`;
+            const url = `${cfg.URL.API}profiles/_self`;
             this.polling = true;
             this.$http.get(url, {}, {
                 headers : {
                     'Authorization': `UserToken ${this.userToken}`
                 }
-            })
-                .then(
+            }).then(
                     resp => {
                         let data = resp.data.data,
                             lightFacts = {},
@@ -215,6 +214,13 @@ export default {
                             this.sources[source.name] = source;
                         });
 
+                        for (let sourceName in this.sources) {
+                            if(this.addedSources.indexOf(sourceName) === -1) {
+                                this.addedSources.push(sourceName);
+                                this.$broadcast('provider.added', sourceName);
+                                this.$broadcast('idle', sourceName);
+                            }
+                        };
 
                         this.percentage = this.verified ? 1 : (pass / gates.length);
                         setTimeout(this.poll, 2000);
