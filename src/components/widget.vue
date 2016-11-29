@@ -86,7 +86,7 @@ import IntroComponent from './introduction.vue';
 import FinishComponent from './finish.vue';
 
 var GATES = {
-    NOCHARGEBACK: 'no-chargeback'
+    NOCHARGEBACK: 'nochargebackgate'
 };
 
 export default {
