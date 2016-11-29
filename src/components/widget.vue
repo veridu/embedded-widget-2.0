@@ -86,7 +86,7 @@ import IntroComponent from './introduction.vue';
 import FinishComponent from './finish.vue';
 
 var GATES = {
-    NOCHARGEBACK: 'no-chargeback'
+    NOCHARGEBACK: 'nochargebackgate'
 };
 
 export default {
@@ -182,14 +182,13 @@ export default {
             return this.$removeItem('addedSources') && this.$removeItem('userToken');
         },
         poll() {
+            const url = `${cfg.URL.API}profiles/_self`;
             this.polling = true;
-
-            this.$http.get(`${cfg.URL.API}profiles/_self`, {}, {
+            this.$http.get(url, {}, {
                 headers : {
                     'Authorization': `UserToken ${this.userToken}`
                 }
-            })
-                .then(
+            }).then(
                     resp => {
                         let data = resp.data.data,
                             lightFacts = {},
@@ -215,6 +214,13 @@ export default {
                             this.sources[source.name] = source;
                         });
 
+                        for (let sourceName in this.sources) {
+                            if(this.addedSources.indexOf(sourceName) === -1) {
+                                this.addedSources.push(sourceName);
+                                this.$broadcast('provider.added', sourceName);
+                                this.$broadcast('idle', sourceName);
+                            }
+                        };
 
                         this.percentage = this.verified ? 1 : (pass / gates.length);
                         setTimeout(this.poll, 2000);
@@ -257,23 +263,30 @@ export default {
         this.confidenceLevel = 'medium';
 
         // initialize token from storage
-        let $addedSources = this.$getItem('addedSources'),
-            $userToken = this.$getItem('userToken');
+        // let $addedSources = this.$getItem('addedSources'),
+        //     $userToken = this.$getItem('userToken');
 
-        $userToken.then(token => {
-            this.userToken = token;
-            this.$broadcast('user-token');
-        });
+        // $userToken.then(token => {
+        //     if (! token) return;
 
-        $addedSources.then(sources => {
-            if (sources && sources.length) {
-                sources.map(source => {
-                    this.$broadcast('provider.added', source);
-                    this.$broadcast('idle', source);
-                });
-                this.addedSources = sources;
-            }
-        });
+        //     this.userToken = token;
+        //     this.$broadcast('user-token');
+        //     this.authenticated = true;
+        //     if (! this.polling) {
+        //         this.poll();
+        //     }
+        // });
+
+        // $addedSources.then(sources => {
+        //     if (sources && sources.length) {
+        //         sources.map(source => {
+        //             this.$broadcast('provider.added', source);
+        //             this.$broadcast('idle', source);
+        //         });
+
+        //         this.addedSources = sources;
+        //     }
+        // });
 
         // preferences
         if (+cfg.preferences.introDuration === 0) {
