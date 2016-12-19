@@ -1,16 +1,16 @@
 import Util from './util';
 let version = window.IDOS_EMBEDDED_WIDGET_CONFIG.version || '1.0';
-let local = window.location.toString().indexOf('http://localhost') === 0;
+let DEBUG = !! window.IDOS_EMBEDDED_WIDGET_CONFIG.DEBUG;
 const prefs = normalizePrefs(window.IDOS_EMBEDDED_WIDGET_CONFIG.preferences);
 
 export default {
-    debug: local,
+    debug: DEBUG,
     URL: {
-        WIDGET: local ? 'http://widget.idos.io:8001/index.php/1.0/' : 'https://widget.idos.io/1.0/',
-        API: local ? 'http://api.idos.io:8000/index.php/1.0/' : 'https://api.idos.io/1.0/'
+        WIDGET: DEBUG ? 'http://widget.idos.io:8001/index.php/1.0/' : 'https://widget.idos.io/1.0/',
+        API: DEBUG ? 'http://api.idos.io:8000/index.php/1.0/' : 'https://api.idos.io/1.0/'
     },
-    assetsBaseUrl: local ? `https://assets.idos.io/1.0/` : `https://assets.idos.io/1.0/`,
-    imgAssetsBaseUrl: local ? `https://assets.idos.io/1.0/img/embedded-widget` : `https://assets.idos.io/1.0/img/embedded-widget`,
+    assetsBaseUrl: DEBUG ? `https://assets.idos.io/1.0/` : `https://assets.idos.io/1.0/`,
+    imgAssetsBaseUrl: DEBUG ? `https://assets.idos.io/1.0/img/embedded-widget` : `https://assets.idos.io/1.0/img/embedded-widget`,
     version: version,
     companySlug: IDOS_EMBEDDED_WIDGET_CONFIG.widget.companySlug, 
     credential: IDOS_EMBEDDED_WIDGET_CONFIG.widget.credential,
