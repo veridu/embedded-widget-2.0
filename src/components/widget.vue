@@ -35,6 +35,7 @@
         <widget-header
             :state.sync="state"
             :loading="loading"
+            :authenticated="authenticated"
             :percentage="percentage"
         ></widget-header>
         <div class="veridu-embedded_widget__body">
