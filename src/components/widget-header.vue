@@ -50,11 +50,10 @@ export default {
     data() {
         return {
             arrowLeftImg: `${cfg.imgAssetsBaseUrl}/material-arrow-left.svg`,
-            authenticated: false,
             verified: false
         };
     },
-    props: ['state', 'loading', 'percentage'],
+    props: ['state', 'loading', 'percentage', 'authenticated'],
     methods: {},
     components: {
         progress: ProgressComponent
@@ -103,7 +102,6 @@ export default {
         }
     },
     ready() {
-        this.$on('authenticated', e => this.authenticated = true);
         this.$on('logged-out', e => this.authenticated = false);
         this.$on('verified', e => this.verified = true);
     }

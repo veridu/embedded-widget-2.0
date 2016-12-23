@@ -220,7 +220,7 @@ export default {
             return '';
         },
         backgroundImage() {
-            return `url('${this.picture}')` || this.$root.cfg.preferences.buttonColor || '';
+            return (this.picture && this.picture.length) ? `url('${this.picture}')` : (this.$root.cfg.preferences.buttonColor || '');
         },
         title() {
             if (this.loading) {
