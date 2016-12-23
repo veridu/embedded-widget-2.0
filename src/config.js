@@ -1,16 +1,18 @@
 import Util from './util';
 let version = window.IDOS_EMBEDDED_WIDGET_CONFIG.version || '1.0';
-let local = window.location.toString().indexOf('http://localhost') === 0;
+let DEBUG = !! window.IDOS_EMBEDDED_WIDGET_CONFIG.DEBUG;
+let DEV = !! window.IDOS_EMBEDDED_WIDGET_CONFIG.DEV;
 const prefs = normalizePrefs(window.IDOS_EMBEDDED_WIDGET_CONFIG.preferences);
 
 export default {
-    debug: local,
+    debug: DEBUG,
+    DEV: DEV,
     URL: {
-        WIDGET: local ? 'http://widget.idos.io:8001/index.php/1.0/' : 'https://widget.idos.io/1.0/',
-        API: local ? 'http://api.idos.io:8000/index.php/1.0/' : 'https://api.idos.io/1.0/'
+        WIDGET: DEV ? 'http://widget.idos.io:8001/index.php/1.0/' : 'https://widget.idos.io/1.0/',
+        API: DEV ? 'http://api.idos.io:8000/index.php/1.0/' : 'https://api.idos.io/1.0/'
     },
-    assetsBaseUrl: local ? `https://assets.idos.io/1.0/` : `https://assets.idos.io/1.0/`,
-    imgAssetsBaseUrl: local ? `https://assets.idos.io/1.0/img/embedded-widget` : `https://assets.idos.io/1.0/img/embedded-widget`,
+    assetsBaseUrl: DEV ? `https://assets.idos.io/1.0/` : `https://assets.idos.io/1.0/`,
+    imgAssetsBaseUrl: DEV ? `https://assets.idos.io/1.0/img/embedded-widget` : `https://assets.idos.io/1.0/img/embedded-widget`,
     version: version,
     companySlug: IDOS_EMBEDDED_WIDGET_CONFIG.widget.companySlug, 
     credential: IDOS_EMBEDDED_WIDGET_CONFIG.widget.credential,
@@ -61,8 +63,6 @@ function normalizePrefs(preferences) {
     if (langs.indexOf(preferences.lang) === -1) {
         preferences.lang = 'en';
     }
-    
-    console.log(preferences.lang);
 
     return preferences;
 }

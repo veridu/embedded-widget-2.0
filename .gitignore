@@ -4,3 +4,4 @@ bin/
 vendor/
 *.sublime-workspace
 *.sublime-project
+yarn-error.log

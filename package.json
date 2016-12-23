@@ -1,5 +1,10 @@
 {
   "private": true,
+  "scripts": {
+    "serve": "(http-server ./build/ -c-1 &) && (gulp watch)",
+    "build": "gulp build",
+    "test": "gulp test"
+  },
   "devDependencies": {
     "elixir-jshint": "^1.1.2",
     "gulp": "^3.9.1",
