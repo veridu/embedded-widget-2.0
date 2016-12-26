@@ -59,9 +59,6 @@
         <table>
             <tbody>
                 <tr>
-                    <td class="veridu-embedded-widget-veridu-id">
-                        <a href="https://www.veridu.com" target="_blank"><img id="gray-id" :src="logo" title="Veridu" /></a>
-                    </td>
                     <td class="veridu-embedded-widget-t_c">
                         <span class="checked" v-show="termsAccepted" @click="termsAccepted = false">
                             <svg fill="#9b9b9b" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -82,6 +79,11 @@
                             <span v-show="terms.length !== 2">
                                 {{ terms }}
                             </span>
+                        </a>
+                    </td>
+                    <td class="veridu-embedded-widget__img">
+                        <a :href="merchant.url" target="_blank">
+                            <img class="merchant__logo" :src="merchant.logo" :title="merchant.name" />
                         </a>
                     </td>
                 </tr>
