@@ -84,11 +84,6 @@
                             </span>
                         </a>
                     </td>
-                    <td class="veridu-embedded-widget__img">
-                        <a :href="merchant.url" target="_blank">
-                            <img class="merchant__logo" :src="merchant.logo" :title="merchant.name" />
-                        </a>
-                    </td>
                 </tr>
             </tbody>
         </table>
