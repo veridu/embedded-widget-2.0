@@ -127,9 +127,9 @@ export default {
                 if (! prop )
                     return {};
 
-                prop.url        = cfg.preferences.logoUrl || `https://veridu.com`;
-                prop.name       = cfg.preferences.logoUrl || `https://veridu.com`;
-                prop.logo       = cfg.preferences.logo || `${cfg.imgAssetsBaseUrl}/verified-gray.svg`;
+                prop.url        = cfg.preferences.logoUrl;
+                prop.name       = cfg.preferences.logoUrl;
+                prop.logo       = cfg.preferences.logo;
                 prop.termsOfUse = cfg.preferences.terms_and_conditions || `https://veridu.com/wiki/Terms_%26_Conditions`;
 
                 return prop;
