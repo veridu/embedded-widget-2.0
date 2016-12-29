@@ -51,6 +51,11 @@
         td.veridu-embedded-widget__img {
             text-align: right;
         }
+
+        img.merchant__logo {
+            max-height: em(50);
+            min-height: em(50);
+        }
     }
 </style>
 
