@@ -51,6 +51,11 @@
         td.veridu-embedded-widget__img {
             text-align: right;
         }
+
+        img.merchant__logo {
+            max-height: em(50);
+            min-height: em(50);
+        }
     }
 </style>
 
@@ -59,9 +64,6 @@
         <table>
             <tbody>
                 <tr>
-                    <td class="veridu-embedded-widget-veridu-id">
-                        <a href="https://www.veridu.com" target="_blank"><img id="gray-id" :src="logo" title="Veridu" /></a>
-                    </td>
                     <td class="veridu-embedded-widget-t_c">
                         <span class="checked" v-show="termsAccepted" @click="termsAccepted = false">
                             <svg fill="#9b9b9b" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -130,9 +132,9 @@ export default {
                 if (! prop )
                     return {};
 
-                prop.url        = cfg.preferences.logoUrl || `https://veridu.com`;
-                prop.name       = cfg.preferences.logoUrl || `https://veridu.com`;
-                prop.logo       = cfg.preferences.logo || `${cfg.imgAssetsBaseUrl}/verified-gray.svg`;
+                prop.url        = cfg.preferences.logoUrl;
+                prop.name       = cfg.preferences.logoUrl;
+                prop.logo       = cfg.preferences.logo;
                 prop.termsOfUse = cfg.preferences.terms_and_conditions || `https://veridu.com/wiki/Terms_%26_Conditions`;
 
                 return prop;
