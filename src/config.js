@@ -63,6 +63,10 @@ function normalizePrefs(preferences) {
     if (langs.indexOf(preferences.lang) === -1) {
         preferences.lang = 'en';
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> recommendation
     return preferences;
 }
