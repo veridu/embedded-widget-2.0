@@ -29,6 +29,11 @@ export default {
             disabled: {
                 'no-token': 'You need to add a Social Provider before adding the Email verification'
             }
+        },
+        sms: {
+            disabled: {
+                'no-token': 'You need to add a Social Provider before adding the SMS verification'
+            }
         }
     },
     source: {
@@ -43,6 +48,24 @@ export default {
             },
             title: {
                 default: 'Email Verification',
+                verified: 'Code verified successfully'
+            },
+            action: {
+                send: 'SEND CODE',
+                verify: 'VERIFY CODE'
+            }
+        },
+        sms: {
+            form: {
+                sms: {
+                    placeholder: 'SMS',
+                },
+                "verification-code": {
+                    placeholder: 'Verification Code'
+                }
+            },
+            title: {
+                default: 'SMS Verification',
                 verified: 'Code verified successfully'
             },
             action: {

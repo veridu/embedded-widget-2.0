@@ -3,7 +3,7 @@
     @import "../sass/functions";
     @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
-    .email-verification {
+    .sms-verification {
         display: flex;
         background-color: #f1f1f1;
         position: absolute;
@@ -15,13 +15,13 @@
         justify-content: center;
         align-items: center;
         color: #555;
-        animation-name: VeriduEmbeddedWidgetEmailVerification;
+        animation-name: VeriduEmbeddedWidgetSmsVerification;
         animation-duration: 0.25s;
         animation-timing-function: ease-out;
         border: 1px solid #ccc;
         border-radius: 3px;
 
-        @keyframes VeriduEmbeddedWidgetEmailVerification {
+        @keyframes VeriduEmbeddedWidgetSmsVerification {
             0% {
                 opacity: 0;
             }
@@ -36,7 +36,7 @@
             margin-bottom: 0.8em;
         }
 
-        .email-verification__content {
+        .sms-verification__content {
             max-width: 80%;
         }
 
@@ -91,21 +91,21 @@
 </style>
 
 <template>
-    <div class="email-verification" v-show="showEmailForm">
-        <div class="email-verification__content">
+    <div class="sms-verification" v-show="showSmsForm">
+        <div class="sms-verification__content">
             <strong>{{ title }}</strong>
 
             <div class="input-container" v-show="! verified">
-                <input type="email" name="email" v-model="email" placeholder="{{ translate('source.email.form.email.placeholder') }}" autofocus :disabled="verificationSent">
+                <input type="sms" name="sms" v-model="sms" placeholder="{{ translate('source.sms.form.sms.placeholder') }}" autofocus :disabled="verificationSent">
             </div>
             <div class="input-container" v-show="verificationSent && ! verified">
-                <input type="number" pattern="[0-9]*" inputmode="numeric" v-model.number="code" placeholder="{{ translate('source.email.form.verification-code.placeholder') }}">
+                <input type="number" pattern="[0-9]*" inputmode="numeric" v-model.number="code" placeholder="{{ translate('source.sms.form.verification-code.placeholder') }}">
             </div>
             <div class="text-right" v-show="! verified">
                 <button @click="close">
                     {{ translate('general.cancel') }}
                 </button>
-                <button class="action" @click="sendEmail" v-show="! verificationSent">
+                <button class="action" @click="sendSms" v-show="! verificationSent">
                     {{ send }}
                 </button>
                 <button class="action" @click="sendCode" v-show="verificationSent">
@@ -121,7 +121,7 @@
 export default {
     data() {
         return {
-            email: '',
+            sms: '',
             code: null,
             source: null,
             verified: false,
@@ -133,9 +133,9 @@ export default {
          * Closes the E-mail verification component.
          */
         close(){
-            this.showEmailForm = false;
+            this.showSmsForm = false;
             this.verificationSent = false;
-            this.email = '';
+            this.sms = '';
             this.code = null;
         },
         /**
@@ -146,7 +146,7 @@ export default {
 
             setTimeout(() => {
                 this.close();
-                this.$root.providerAdded('email');
+                this.$root.providerAdded('sms');
             }, 2000);
         },
         /**
@@ -172,20 +172,20 @@ export default {
 
             // too many tries
             promise.catch(response => {
-                window.alert('You have exceeded the number of tries. \nStart another e-mail verification process');
+                window.alert('You have exceeded the number of tries. \nStart another SMS verification process');
                 this.code = null;
                 this.verificationSent = false;
             });
         },
         /**
-         * Sends the OTP email to the e-mail given.
+         * Sends the OTP sms to the e-mail given.
          */
-        sendEmail() {
+        sendSms() {
             this.verificationSent = true;
             const promise = this.$http.post(`${this.$root.cfg.URL.API}profiles/_self/sources`, {
-                name: 'email-otp',
+                name: 'sms-otp',
                 tags: {
-                    'email': this.email,
+                    'phone': this.sms,
                     'otp_check': true
                 }
             }, {
@@ -199,16 +199,16 @@ export default {
             });
         }
     },
-    props: [ 'showEmailForm' ],
+    props: [ 'showSmsForm' ],
     computed: {
         title() {
-            return this.verified ? this.translate('source.email.title.verified') : this.translate('source.email.title.default');
+            return this.verified ? this.translate('source.sms.title.verified') : this.translate('source.sms.title.default');
         },
         send() {
-            return this.translate('source.email.action.send');
+            return this.translate('source.sms.action.send');
         },
         verify() {
-            return this.translate('source.email.action.verify');
+            return this.translate('source.sms.action.verify');
         },
     },
     components: {

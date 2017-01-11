@@ -31,7 +31,7 @@ export default {
  * @return     array  The normalized providers
  */
 function normalizeProviders(providers) {
-    var alloweds = ['facebook', 'twitter', 'google', 'yahoo', 'spotify', 'linkedin', 'google', 'amazon', 'paypal', 'dropbox', 'email'];
+    var alloweds = ['facebook', 'twitter', 'google', 'yahoo', 'spotify', 'linkedin', 'google', 'amazon', 'paypal', 'dropbox', 'email', 'sms'];
     return providers.filter(p => alloweds.indexOf(p.key) !== -1);
 }
 
