@@ -35,7 +35,7 @@ if (! cfg.debug) {
 }
 
 // common http headers
-delete Vue.http.headers.delete['Content-Type'];
+//delete Vue.http.headers.delete['Content-Type'];
 
 // set locales
 Object.keys(locales).map(function (lang) {

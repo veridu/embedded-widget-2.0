@@ -64,6 +64,9 @@
             <email-verification 
                 :show-email-form.sync="showEmailForm"
             ></email-verification>
+            <sms-verification 
+                :show-sms-form.sync="showSmsForm"
+            ></sms-verification>
         </div>
         <widget-footer
             :state="state"
@@ -79,6 +82,7 @@ import Vue from 'vue';
 
 // components
 import EmailVerification from './email-verification.vue';
+import SmsVerification from './sms-verification.vue';
 import ProvidersComponent from './providers.vue';
 import SecondaryProvidersComponent from './secondary-providers.vue';
 import WidgetHeaderComponent from './widget-header.vue';
@@ -98,6 +102,7 @@ export default {
             addedSources: [],
             sources: {},
             showEmailForm: false,
+            showSmsForm: false,
             tokens: {},
             loading: false,
             ga: undefined,
@@ -144,6 +149,9 @@ export default {
         },
         showEmail() {
             this.showEmailForm = true;
+        },
+        showSms() {
+            this.showSmsForm = true;
         },
         logout(provider) {
             
@@ -235,6 +243,7 @@ export default {
         'widget-header': WidgetHeaderComponent,
         'widget-footer': WidgetFooterComponent,
         'email-verification': EmailVerification,
+        'sms-verification': SmsVerification,
         'introduction': IntroComponent,
         'finish': FinishComponent
     },

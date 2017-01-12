@@ -177,6 +177,9 @@ export default {
             } else {
                 // shows the oauth step
                 switch(this.provider.key) {
+                    case 'sms':
+                        return this.showSms();
+                    break;
                     case 'email':
                         return this.showEmail();
                     break;
@@ -185,6 +188,9 @@ export default {
                     break;
                 }
             }
+        },
+        showSms() {
+            this.$root.showSms();
         },
         showEmail() {
             this.$root.showEmail();
@@ -205,7 +211,7 @@ export default {
             Util.showWindow(url);
         },
         disabled() {
-            if (this.provider.key !== 'email') {
+            if (this.provider.key !== 'email' && this.provider.key !== 'sms') {
                 this.isDisabled =  ! this.enabled;
             } else {
                 this.isDisabled =  this.enabled ? ! this.$root.userToken : true;
