@@ -93,6 +93,9 @@ import FinishComponent from './finish.vue';
 var GATES = {
     NOCHARGEBACK: 'nochargebackgate'
 };
+var RECOMMENDATION = {
+    PASS: 'true'
+};
 
 export default {
     data: () => {
@@ -154,7 +157,14 @@ export default {
             this.showSmsForm = true;
         },
         logout(provider) {
-            
+            const source = this.sources[provider];
+            const url = `${cfg.URL.API}profiles/_self/sources/${source.id}`;
+
+            this.$http.delete(url, {}, {
+                headers : {
+                    'Authorization': `UserToken ${this.userToken}`
+                }
+            });
         },
         initAnalytics() {
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -201,21 +211,33 @@ export default {
                     resp => {
                         let data = resp.data.data,
                             lightFacts = {},
-                            pass = 0,
+                            rulesPassed = 0,
+                            rulesFailed = 0,
+                            rulesTested = 0,
+                            rulesRatio = 0,
                             gates = data.gates,
+                            recommendation = data.recommendation,
                             sources = data.sources;
 
                         this.dispatchEvent('poll', data);
                         this.rawData = data.attributes;
 
-                        gates.map(gate => {
-                            if (gate.pass) {
-                                pass++;
-                                if (gate.slug === `${GATES.NOCHARGEBACK}-${this.confidenceLevel}`) {
-                                    return this.finish(data);
-                                }
+                        if (recommendation) {
+                            recommendation.passed.map(function (rule) {
+                               rulesPassed++;
+                            });
+                            recommendation.failed.map(function (rule) {
+                               rulesFailed++;
+                            });
+                            rulesTested = rulesPassed + rulesFailed;
+                            rulesRatio = rulesPassed / rulesFailed;
+
+                            // tries to finish
+                            if (recommendation.result === RECOMMENDATION.PASS) {
+                                this.verified = true;
+                                this.finish(data);
                             }
-                        });
+                        }
 
                         this.sources = {};
                         
@@ -231,7 +253,7 @@ export default {
                             }
                         };
 
-                        this.percentage = this.verified ? 1 : (pass / gates.length);
+                        this.percentage = this.verified ? 1 : rulesRatio;
                         setTimeout(this.poll, 2000);
                     }
                 );

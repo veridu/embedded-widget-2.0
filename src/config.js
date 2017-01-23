@@ -8,8 +8,8 @@ export default {
     debug: DEBUG,
     DEV: DEV,
     URL: {
-        WIDGET: DEV ? 'http://widget.idos.io:8001/index.php/1.0/' : 'https://widget.idos.io/1.0/',
-        API: DEV ? 'http://api.idos.io:8000/index.php/1.0/' : 'https://api.idos.io/1.0/'
+        WIDGET: IDOS_EMBEDDED_WIDGET_CONFIG.WIDGET_URL || 'https://widget.idos.io/1.0/',
+        API: IDOS_EMBEDDED_WIDGET_CONFIG.API_URL || 'https://api.idos.io/1.0/'
     },
     assetsBaseUrl: DEV ? `https://assets.idos.io/1.0/` : `https://assets.idos.io/1.0/`,
     imgAssetsBaseUrl: DEV ? `https://assets.idos.io/1.0/img/embedded-widget` : `https://assets.idos.io/1.0/img/embedded-widget`,
@@ -63,6 +63,10 @@ function normalizePrefs(preferences) {
     if (langs.indexOf(preferences.lang) === -1) {
         preferences.lang = 'en';
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> recommendation
     return preferences;
 }

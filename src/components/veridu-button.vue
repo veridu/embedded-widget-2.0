@@ -202,12 +202,13 @@ export default {
                 base_url = cfg.URL.WIDGET;
             
             if (this.$root.authenticated) {
-                uri  = `oauth/${this.provider.key}/${companySlug}/${publicKey}?userToken=${this.$root.userToken}`;
+                uri  = `oauth/${this.provider.key}/${companySlug}/${publicKey}?userToken=${this.$root.userToken}&apiUrl=${cfg.URL.API}`;
             } else {
-                uri  = `sso/${this.provider.key}/${companySlug}/${publicKey}`;
+                uri  = `sso/${this.provider.key}/${companySlug}/${publicKey}?apiUrl=${cfg.URL.API}`;
             }
 
             let url = base_url + uri;
+
             Util.showWindow(url);
         },
         disabled() {
