@@ -14,7 +14,7 @@ export default {
     assetsBaseUrl: DEV ? `https://assets.idos.io/1.0/` : `https://assets.idos.io/1.0/`,
     imgAssetsBaseUrl: DEV ? `https://assets.idos.io/1.0/img/embedded-widget` : `https://assets.idos.io/1.0/img/embedded-widget`,
     version: version,
-    companySlug: IDOS_EMBEDDED_WIDGET_CONFIG.widget.companySlug, 
+    companySlug: IDOS_EMBEDDED_WIDGET_CONFIG.widget.companySlug,
     credential: IDOS_EMBEDDED_WIDGET_CONFIG.widget.credential,
     preferences: prefs,
     widget: IDOS_EMBEDDED_WIDGET_CONFIG.widget.config || {},
@@ -27,7 +27,7 @@ export default {
  * Normalize providers.
  *
  * @param      array  providers  The providers
- * 
+ *
  * @return     array  The normalized providers
  */
 function normalizeProviders(providers) {
@@ -39,7 +39,7 @@ function normalizeProviders(providers) {
  * Normalize preferences.
  *
  * @param      object  preferences  The preferences
- * 
+ *
  * @return     object  The normalized preferences
  */
 function normalizePrefs(preferences) {
@@ -63,10 +63,6 @@ function normalizePrefs(preferences) {
     if (langs.indexOf(preferences.lang) === -1) {
         preferences.lang = 'en';
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> recommendation
     return preferences;
 }
