@@ -159,7 +159,8 @@ export default {
                 }
             }, {
                 headers : {
-                    'Authorization': `UserToken ${this.$root.userToken}`
+                    'Authorization': `UserToken ${this.$root.userToken}`,
+                    'Content-Type': 'application/json; charset=utf-8'
                 }
             });
 
@@ -190,7 +191,8 @@ export default {
                 }
             }, {
                 headers : {
-                    'Authorization': `UserToken ${this.$root.userToken}`
+                    'Authorization': `UserToken ${this.$root.userToken}`,
+                    'Content-Type': 'application/json; charset=utf-8'
                 }
             });
 
